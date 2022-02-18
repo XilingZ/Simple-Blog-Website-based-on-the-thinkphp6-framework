@@ -1,0 +1,5 @@
+[2021-04-29T12:23:28+08:00][sql] CONNECT:[ UseTime:0.024227s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-29T12:23:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001382s ]
+[2021-04-29T12:23:30+08:00][sql] CONNECT:[ UseTime:0.001030s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-29T12:23:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000920s ]
+[2021-04-29T12:23:30+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000749s ]

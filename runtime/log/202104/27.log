@@ -1,0 +1,148 @@
+[2021-04-27T21:36:32+08:00][error] [0]类不存在: app\controller\Admim
+[2021-04-27T21:36:34+08:00][error] [0]类不存在: app\controller\Admim
+[2021-04-27T21:36:36+08:00][error] [0]类不存在: app\controller\Admim
+[2021-04-27T21:37:36+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:37:37+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:37:37+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:37:38+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:37:38+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:38:12+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:38:13+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:38:23+08:00][error] [0]类不存在: app\model\Admim
+[2021-04-27T21:41:15+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:41:16+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:41:16+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:41:16+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:42:05+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:42:05+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:42:06+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:43:11+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:45:12+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:45:13+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:45:13+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:45:13+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:45:15+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:45:15+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:08+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:09+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:09+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:09+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:09+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:44+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:45+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:45+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:45+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:46:46+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:47:29+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:47:30+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:47:30+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:47:30+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:48:44+08:00][error] [8]未定义变量: admim
+[2021-04-27T21:48:47+08:00][error] [8]未定义变量: admim
+[2021-04-27T21:51:43+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:56:54+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:57:00+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T21:59:52+08:00][error] [0]类不存在: app\model\Admin
+[2021-04-27T22:00:34+08:00][error] [0]Class 'app\model\Model' not found
+[2021-04-27T22:06:05+08:00][sql] CONNECT:[ UseTime:0.001112s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:06:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000815s ]
+[2021-04-27T22:06:05+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000307s ]
+[2021-04-27T22:17:45+08:00][sql] CONNECT:[ UseTime:0.023886s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:17:45+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000891s ]
+[2021-04-27T22:17:45+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000382s ]
+[2021-04-27T22:17:51+08:00][sql] CONNECT:[ UseTime:0.024832s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:17:51+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002543s ]
+[2021-04-27T22:18:01+08:00][sql] CONNECT:[ UseTime:0.022723s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:18:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002853s ]
+[2021-04-27T22:18:01+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000406s ]
+[2021-04-27T22:18:47+08:00][sql] CONNECT:[ UseTime:0.019526s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:18:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002336s ]
+[2021-04-27T22:18:47+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admins' LIMIT 1 [ RunTime:0.000390s ]
+[2021-04-27T22:21:20+08:00][sql] CONNECT:[ UseTime:0.014448s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:21:20+08:00][error] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tp6.tp_tp_admin' doesn't exist
+[2021-04-27T22:21:28+08:00][sql] CONNECT:[ UseTime:0.001033s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:21:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000848s ]
+[2021-04-27T22:21:34+08:00][sql] CONNECT:[ UseTime:0.017800s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:21:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002114s ]
+[2021-04-27T22:25:40+08:00][sql] CONNECT:[ UseTime:0.019068s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:25:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002417s ]
+[2021-04-27T22:25:40+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'ad123' LIMIT 1 [ RunTime:0.000425s ]
+[2021-04-27T22:26:28+08:00][sql] CONNECT:[ UseTime:0.012211s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:26:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002171s ]
+[2021-04-27T22:26:28+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'ad123' LIMIT 1 [ RunTime:0.000403s ]
+[2021-04-27T22:26:56+08:00][sql] CONNECT:[ UseTime:0.001013s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:26:56+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002394s ]
+[2021-04-27T22:26:56+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'ad123' LIMIT 1 [ RunTime:0.000521s ]
+[2021-04-27T22:26:59+08:00][sql] CONNECT:[ UseTime:0.018625s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:26:59+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002891s ]
+[2021-04-27T22:27:05+08:00][sql] CONNECT:[ UseTime:0.015654s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:27:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002873s ]
+[2021-04-27T22:27:05+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'adminss' LIMIT 1 [ RunTime:0.000397s ]
+[2021-04-27T22:27:26+08:00][sql] CONNECT:[ UseTime:0.025061s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:27:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000855s ]
+[2021-04-27T22:27:31+08:00][sql] CONNECT:[ UseTime:0.019978s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:27:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.008709s ]
+[2021-04-27T22:27:31+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admins' LIMIT 1 [ RunTime:0.000689s ]
+[2021-04-27T22:33:07+08:00][sql] CONNECT:[ UseTime:0.001083s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:33:07+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001106s ]
+[2021-04-27T22:33:07+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000363s ]
+[2021-04-27T22:33:10+08:00][sql] CONNECT:[ UseTime:0.019234s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:33:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000694s ]
+[2021-04-27T22:33:17+08:00][sql] CONNECT:[ UseTime:0.024733s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:33:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000924s ]
+[2021-04-27T22:33:17+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000392s ]
+[2021-04-27T22:34:56+08:00][sql] CONNECT:[ UseTime:0.001833s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:34:56+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000967s ]
+[2021-04-27T22:35:00+08:00][sql] CONNECT:[ UseTime:0.018190s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:35:00+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001173s ]
+[2021-04-27T22:35:00+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000497s ]
+[2021-04-27T22:35:35+08:00][sql] CONNECT:[ UseTime:0.012375s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:35:35+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000826s ]
+[2021-04-27T22:35:35+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000350s ]
+[2021-04-27T22:36:16+08:00][sql] CONNECT:[ UseTime:0.012856s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:36:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000718s ]
+[2021-04-27T22:36:20+08:00][sql] CONNECT:[ UseTime:0.018974s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:36:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000706s ]
+[2021-04-27T22:36:20+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000344s ]
+[2021-04-27T22:36:30+08:00][sql] CONNECT:[ UseTime:0.018645s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:36:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000923s ]
+[2021-04-27T22:36:33+08:00][sql] CONNECT:[ UseTime:0.015997s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:36:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000744s ]
+[2021-04-27T22:36:33+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000406s ]
+[2021-04-27T22:40:14+08:00][sql] CONNECT:[ UseTime:0.011031s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:40:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000764s ]
+[2021-04-27T22:40:18+08:00][sql] CONNECT:[ UseTime:0.010740s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:40:18+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000735s ]
+[2021-04-27T22:40:18+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000386s ]
+[2021-04-27T22:40:53+08:00][sql] CONNECT:[ UseTime:0.017025s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:40:53+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000750s ]
+[2021-04-27T22:40:59+08:00][sql] CONNECT:[ UseTime:0.011225s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:40:59+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000768s ]
+[2021-04-27T22:40:59+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admins' LIMIT 1 [ RunTime:0.000365s ]
+[2021-04-27T22:41:03+08:00][sql] CONNECT:[ UseTime:0.013217s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:41:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000800s ]
+[2021-04-27T22:41:03+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000402s ]
+[2021-04-27T22:41:06+08:00][sql] CONNECT:[ UseTime:0.013669s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:41:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000723s ]
+[2021-04-27T22:41:06+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000373s ]
+[2021-04-27T22:51:12+08:00][sql] CONNECT:[ UseTime:0.001014s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000907s ]
+[2021-04-27T22:51:17+08:00][sql] CONNECT:[ UseTime:0.001322s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000753s ]
+[2021-04-27T22:51:17+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000390s ]
+[2021-04-27T22:51:21+08:00][sql] CONNECT:[ UseTime:0.013966s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:21+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000854s ]
+[2021-04-27T22:51:28+08:00][sql] CONNECT:[ UseTime:0.013229s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000732s ]
+[2021-04-27T22:51:28+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admins' LIMIT 1 [ RunTime:0.000384s ]
+[2021-04-27T22:51:35+08:00][sql] CONNECT:[ UseTime:0.016758s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:35+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000807s ]
+[2021-04-27T22:51:35+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admins' LIMIT 1 [ RunTime:0.000395s ]
+[2021-04-27T22:51:40+08:00][sql] CONNECT:[ UseTime:0.011302s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001030s ]
+[2021-04-27T22:51:40+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000362s ]
+[2021-04-27T22:51:43+08:00][sql] CONNECT:[ UseTime:0.011536s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:51:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000699s ]
+[2021-04-27T22:51:43+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000359s ]
+[2021-04-27T22:52:05+08:00][sql] CONNECT:[ UseTime:0.010687s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-27T22:52:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000808s ]

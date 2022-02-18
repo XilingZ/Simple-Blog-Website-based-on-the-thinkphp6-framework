@@ -1,0 +1,493 @@
+[2021-05-03T12:56:11+08:00][sql] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:56:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000829s ]
+[2021-05-03T12:56:31+08:00][sql] CONNECT:[ UseTime:0.010225s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:56:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000797s ]
+[2021-05-03T12:56:31+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000364s ]
+[2021-05-03T12:56:39+08:00][sql] CONNECT:[ UseTime:0.020447s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:56:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000962s ]
+[2021-05-03T12:56:39+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000418s ]
+[2021-05-03T12:56:46+08:00][sql] CONNECT:[ UseTime:0.015317s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:56:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000765s ]
+[2021-05-03T12:56:46+08:00][sql] SELECT * FROM `tp_category` WHERE  `cate_id` = 5 LIMIT 1 [ RunTime:0.000431s ]
+[2021-05-03T12:56:53+08:00][sql] CONNECT:[ UseTime:0.017706s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:56:53+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000761s ]
+[2021-05-03T12:56:53+08:00][sql] SELECT * FROM `tp_category` WHERE  `cate_id` = 5 LIMIT 1 [ RunTime:0.000419s ]
+[2021-05-03T12:56:53+08:00][sql] UPDATE `tp_category`  SET `cate_name` = '王大可'  WHERE  `cate_id` = 5 [ RunTime:0.000406s ]
+[2021-05-03T12:56:54+08:00][sql] CONNECT:[ UseTime:0.019088s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:56:54+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001410s ]
+[2021-05-03T12:56:54+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000655s ]
+[2021-05-03T12:57:01+08:00][sql] CONNECT:[ UseTime:0.001785s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000888s ]
+[2021-05-03T12:57:01+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000463s ]
+[2021-05-03T12:57:05+08:00][sql] CONNECT:[ UseTime:0.013473s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000803s ]
+[2021-05-03T12:57:05+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_id` = 3 LIMIT 1 [ RunTime:0.000391s ]
+[2021-05-03T12:57:14+08:00][sql] CONNECT:[ UseTime:0.000884s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000874s ]
+[2021-05-03T12:57:14+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000372s ]
+[2021-05-03T12:57:29+08:00][sql] CONNECT:[ UseTime:0.001601s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000917s ]
+[2021-05-03T12:57:29+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000391s ]
+[2021-05-03T12:57:29+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'dake' LIMIT 1 [ RunTime:0.000520s ]
+[2021-05-03T12:57:29+08:00][sql] INSERT INTO `tp_admin` SET `admin_name` = 'dake' , `admin_pwd` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000464s ]
+[2021-05-03T12:57:30+08:00][sql] CONNECT:[ UseTime:0.020136s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000905s ]
+[2021-05-03T12:57:30+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000478s ]
+[2021-05-03T12:57:37+08:00][sql] CONNECT:[ UseTime:0.018505s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000719s ]
+[2021-05-03T12:57:42+08:00][sql] CONNECT:[ UseTime:0.025142s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:57:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000799s ]
+[2021-05-03T12:57:42+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'dake' LIMIT 1 [ RunTime:0.000385s ]
+[2021-05-03T12:58:03+08:00][sql] CONNECT:[ UseTime:0.020809s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:58:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000808s ]
+[2021-05-03T12:58:03+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000490s ]
+[2021-05-03T12:58:31+08:00][sql] CONNECT:[ UseTime:0.011160s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T12:58:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000980s ]
+[2021-05-03T12:58:31+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001270s ]
+[2021-05-03T13:07:37+08:00][sql] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:07:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000777s ]
+[2021-05-03T13:07:37+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000400s ]
+[2021-05-03T13:07:41+08:00][sql] CONNECT:[ UseTime:0.025711s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:07:41+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000839s ]
+[2021-05-03T13:07:41+08:00][sql] SELECT * FROM `tp_category` WHERE  `cate_id` = 5 LIMIT 1 [ RunTime:0.000560s ]
+[2021-05-03T13:07:44+08:00][sql] CONNECT:[ UseTime:0.013931s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:07:44+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001066s ]
+[2021-05-03T13:07:44+08:00][sql] SELECT * FROM `tp_category` WHERE  `cate_id` = 5 LIMIT 1 [ RunTime:0.000391s ]
+[2021-05-03T13:07:44+08:00][sql] UPDATE `tp_category`  SET `cate_name` = '王大可123'  WHERE  `cate_id` = 5 [ RunTime:0.000393s ]
+[2021-05-03T13:07:45+08:00][sql] CONNECT:[ UseTime:0.021993s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:07:45+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000939s ]
+[2021-05-03T13:07:45+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000439s ]
+[2021-05-03T13:08:28+08:00][sql] CONNECT:[ UseTime:0.015433s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:08:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000791s ]
+[2021-05-03T13:08:28+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.000329s ]
+[2021-05-03T13:44:22+08:00][error] [0]Call to undefined method app\controller\Article::getAllArticle()[C:\tp6_blog\app\controller\Admins.php:167]
+[2021-05-03T13:44:56+08:00][sql] CONNECT:[ UseTime:0.001221s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:44:56+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001052s ]
+[2021-05-03T13:44:56+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000547s ]
+[2021-05-03T13:59:54+08:00][sql] CONNECT:[ UseTime:0.019215s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T13:59:54+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000758s ]
+[2021-05-03T13:59:54+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000386s ]
+[2021-05-03T14:09:28+08:00][sql] CONNECT:[ UseTime:0.001091s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T14:09:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.008456s ]
+[2021-05-03T14:09:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000649s ]
+[2021-05-03T14:09:28+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000397s ]
+[2021-05-03T14:09:28+08:00][error] [8]未定义数组索引: cate_id[C:\tp6_blog\vendor\topthink\think-helper\src\Collection.php:585]
+[2021-05-03T14:15:22+08:00][sql] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T14:15:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000781s ]
+[2021-05-03T14:15:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001435s ]
+[2021-05-03T14:15:22+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000504s ]
+[2021-05-03T14:15:22+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000363s ]
+[2021-05-03T14:22:29+08:00][sql] CONNECT:[ UseTime:0.001056s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T14:22:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000827s ]
+[2021-05-03T14:22:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000613s ]
+[2021-05-03T14:22:29+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000438s ]
+[2021-05-03T14:22:29+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000389s ]
+[2021-05-03T14:22:29+08:00][error] [8]未定义数组索引: cate_id[C:\tp6_blog\vendor\topthink\think-helper\src\Collection.php:585]
+[2021-05-03T14:23:40+08:00][sql] CONNECT:[ UseTime:0.013188s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T14:23:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000691s ]
+[2021-05-03T14:23:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000513s ]
+[2021-05-03T14:23:40+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000280s ]
+[2021-05-03T14:23:40+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000294s ]
+[2021-05-03T14:24:22+08:00][sql] CONNECT:[ UseTime:0.024754s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T14:24:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001001s ]
+[2021-05-03T14:24:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000966s ]
+[2021-05-03T14:24:22+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000521s ]
+[2021-05-03T14:24:22+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000376s ]
+[2021-05-03T15:00:18+08:00][sql] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:00:18+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.003482s ]
+[2021-05-03T15:00:22+08:00][sql] CONNECT:[ UseTime:0.018138s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:00:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000839s ]
+[2021-05-03T15:00:22+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000405s ]
+[2021-05-03T15:00:25+08:00][sql] CONNECT:[ UseTime:0.023448s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:00:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000782s ]
+[2021-05-03T15:00:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000619s ]
+[2021-05-03T15:00:25+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000414s ]
+[2021-05-03T15:00:25+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000379s ]
+[2021-05-03T15:00:57+08:00][sql] CONNECT:[ UseTime:0.018739s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:00:57+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.002967s ]
+[2021-05-03T15:00:57+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000795s ]
+[2021-05-03T15:00:57+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000382s ]
+[2021-05-03T15:00:57+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000336s ]
+[2021-05-03T15:01:34+08:00][sql] CONNECT:[ UseTime:0.014330s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:01:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000957s ]
+[2021-05-03T15:01:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000645s ]
+[2021-05-03T15:01:34+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC [ RunTime:0.000407s ]
+[2021-05-03T15:01:34+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000344s ]
+[2021-05-03T15:07:51+08:00][sql] CONNECT:[ UseTime:0.001370s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:07:51+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001823s ]
+[2021-05-03T15:07:51+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000767s ]
+[2021-05-03T15:07:51+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000424s ]
+[2021-05-03T15:07:51+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,1 [ RunTime:0.011882s ]
+[2021-05-03T15:07:51+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001023s ]
+[2021-05-03T15:07:51+08:00][error] [0]语法错误: unexpected '{', expecting ',' or ';'[C:\tp6_blog\runtime\temp\f07481fb880c2d56dcd6167c09780c51.php:131]
+[2021-05-03T15:08:10+08:00][sql] CONNECT:[ UseTime:0.013215s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:08:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001328s ]
+[2021-05-03T15:08:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000688s ]
+[2021-05-03T15:08:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000331s ]
+[2021-05-03T15:08:10+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,1 [ RunTime:0.000374s ]
+[2021-05-03T15:08:10+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000347s ]
+[2021-05-03T15:34:22+08:00][sql] CONNECT:[ UseTime:0.001149s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000916s ]
+[2021-05-03T15:34:25+08:00][sql] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000775s ]
+[2021-05-03T15:34:25+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000370s ]
+[2021-05-03T15:34:30+08:00][sql] CONNECT:[ UseTime:0.012998s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001414s ]
+[2021-05-03T15:34:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000692s ]
+[2021-05-03T15:34:30+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000341s ]
+[2021-05-03T15:34:30+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,1 [ RunTime:0.000426s ]
+[2021-05-03T15:34:30+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000383s ]
+[2021-05-03T15:34:32+08:00][sql] CONNECT:[ UseTime:0.015493s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:32+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000880s ]
+[2021-05-03T15:34:32+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000719s ]
+[2021-05-03T15:34:32+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000447s ]
+[2021-05-03T15:34:32+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 1,1 [ RunTime:0.000452s ]
+[2021-05-03T15:34:32+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000363s ]
+[2021-05-03T15:34:33+08:00][sql] CONNECT:[ UseTime:0.012127s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001197s ]
+[2021-05-03T15:34:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000707s ]
+[2021-05-03T15:34:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000301s ]
+[2021-05-03T15:34:33+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,1 [ RunTime:0.000368s ]
+[2021-05-03T15:34:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000348s ]
+[2021-05-03T15:34:34+08:00][sql] CONNECT:[ UseTime:0.020915s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000727s ]
+[2021-05-03T15:34:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000609s ]
+[2021-05-03T15:34:34+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000305s ]
+[2021-05-03T15:34:34+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 1,1 [ RunTime:0.000371s ]
+[2021-05-03T15:34:34+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000344s ]
+[2021-05-03T15:34:35+08:00][sql] CONNECT:[ UseTime:0.014497s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:34:35+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000743s ]
+[2021-05-03T15:34:35+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000602s ]
+[2021-05-03T15:34:35+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000312s ]
+[2021-05-03T15:34:35+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,1 [ RunTime:0.000367s ]
+[2021-05-03T15:34:35+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000338s ]
+[2021-05-03T15:37:06+08:00][sql] CONNECT:[ UseTime:0.001014s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:37:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001111s ]
+[2021-05-03T15:37:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.021066s ]
+[2021-05-03T15:37:06+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000393s ]
+[2021-05-03T15:37:06+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,1 [ RunTime:0.000553s ]
+[2021-05-03T15:37:06+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000482s ]
+[2021-05-03T15:43:59+08:00][sql] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T15:43:59+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000813s ]
+[2021-05-03T15:43:59+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000681s ]
+[2021-05-03T15:43:59+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000594s ]
+[2021-05-03T15:43:59+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.001303s ]
+[2021-05-03T15:43:59+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000465s ]
+[2021-05-03T16:04:17+08:00][sql] CONNECT:[ UseTime:0.001376s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:04:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000956s ]
+[2021-05-03T16:04:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000692s ]
+[2021-05-03T16:04:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000444s ]
+[2021-05-03T16:04:17+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000422s ]
+[2021-05-03T16:04:17+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000349s ]
+[2021-05-03T16:04:33+08:00][sql] CONNECT:[ UseTime:0.022256s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:04:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000772s ]
+[2021-05-03T16:04:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000587s ]
+[2021-05-03T16:04:33+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000313s ]
+[2021-05-03T16:04:33+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000378s ]
+[2021-05-03T16:04:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000360s ]
+[2021-05-03T16:05:09+08:00][sql] CONNECT:[ UseTime:0.016600s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:05:09+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001037s ]
+[2021-05-03T16:05:09+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000673s ]
+[2021-05-03T16:05:09+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000529s ]
+[2021-05-03T16:05:09+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000512s ]
+[2021-05-03T16:05:09+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000484s ]
+[2021-05-03T16:05:11+08:00][sql] CONNECT:[ UseTime:0.022207s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:05:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000758s ]
+[2021-05-03T16:05:11+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000381s ]
+[2021-05-03T16:07:17+08:00][sql] CONNECT:[ UseTime:0.010708s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:07:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000884s ]
+[2021-05-03T16:07:17+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000421s ]
+[2021-05-03T16:35:36+08:00][sql] CONNECT:[ UseTime:0.021518s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:35:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000825s ]
+[2021-05-03T16:35:40+08:00][sql] CONNECT:[ UseTime:0.018987s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:35:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000904s ]
+[2021-05-03T16:35:40+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.017838s ]
+[2021-05-03T16:35:42+08:00][sql] CONNECT:[ UseTime:0.020453s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:35:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000789s ]
+[2021-05-03T16:35:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000991s ]
+[2021-05-03T16:35:42+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000691s ]
+[2021-05-03T16:35:42+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000441s ]
+[2021-05-03T16:35:42+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000371s ]
+[2021-05-03T16:36:09+08:00][sql] CONNECT:[ UseTime:0.022583s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:36:09+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001001s ]
+[2021-05-03T16:36:09+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000373s ]
+[2021-05-03T16:36:40+08:00][sql] CONNECT:[ UseTime:0.015928s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:36:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000808s ]
+[2021-05-03T16:36:40+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000429s ]
+[2021-05-03T16:36:54+08:00][sql] CONNECT:[ UseTime:0.015652s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:36:54+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000866s ]
+[2021-05-03T16:36:54+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000403s ]
+[2021-05-03T16:37:19+08:00][sql] CONNECT:[ UseTime:0.025520s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:37:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000714s ]
+[2021-05-03T16:37:19+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000359s ]
+[2021-05-03T16:37:28+08:00][sql] CONNECT:[ UseTime:0.010835s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:37:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001029s ]
+[2021-05-03T16:37:28+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000442s ]
+[2021-05-03T16:39:45+08:00][sql] CONNECT:[ UseTime:0.014402s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:39:45+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001414s ]
+[2021-05-03T16:39:45+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000454s ]
+[2021-05-03T16:39:45+08:00][error] [8]未定义变量: category[C:\tp6_blog\runtime\temp\0b6f1aa19402e87d018f7e027066461c.php:133]
+[2021-05-03T16:40:04+08:00][sql] CONNECT:[ UseTime:0.020540s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:40:04+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002513s ]
+[2021-05-03T16:40:04+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001210s ]
+[2021-05-03T16:41:58+08:00][sql] CONNECT:[ UseTime:0.014452s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:41:58+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000921s ]
+[2021-05-03T16:41:58+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000447s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.836309s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.440435s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000356s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:1.027997s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.191387s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000318s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:1.377931s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.011042s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.076528s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.150914s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000484s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.101063s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.361577s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000461s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.001184s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:1.309423s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.011273s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.000936s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:1.350233s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001898s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.704123s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.442542s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000391s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.001606s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:1.286327s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.011152s ]
+[2021-05-03T16:42:33+08:00][sql] CONNECT:[ UseTime:0.488144s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:42:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.440590s ]
+[2021-05-03T16:42:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000293s ]
+[2021-05-03T16:43:48+08:00][sql] CONNECT:[ UseTime:0.015702s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:43:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001085s ]
+[2021-05-03T16:43:48+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000417s ]
+[2021-05-03T16:46:25+08:00][sql] CONNECT:[ UseTime:0.020626s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T16:46:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000899s ]
+[2021-05-03T16:46:25+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000397s ]
+[2021-05-03T17:02:39+08:00][sql] CONNECT:[ UseTime:0.017863s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:02:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001221s ]
+[2021-05-03T17:02:39+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000467s ]
+[2021-05-03T17:04:20+08:00][sql] CONNECT:[ UseTime:0.002491s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:04:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001095s ]
+[2021-05-03T17:04:20+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000381s ]
+[2021-05-03T17:04:27+08:00][sql] CONNECT:[ UseTime:0.020613s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:04:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000706s ]
+[2021-05-03T17:04:27+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000381s ]
+[2021-05-03T17:04:28+08:00][sql] CONNECT:[ UseTime:0.017416s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:04:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001206s ]
+[2021-05-03T17:04:28+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000586s ]
+[2021-05-03T17:04:29+08:00][sql] CONNECT:[ UseTime:0.018053s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:04:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000833s ]
+[2021-05-03T17:04:29+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000358s ]
+[2021-05-03T17:04:49+08:00][sql] CONNECT:[ UseTime:0.021779s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:04:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000870s ]
+[2021-05-03T17:04:49+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000363s ]
+[2021-05-03T17:05:47+08:00][sql] CONNECT:[ UseTime:0.016310s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:05:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002323s ]
+[2021-05-03T17:05:47+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000988s ]
+[2021-05-03T17:06:01+08:00][sql] CONNECT:[ UseTime:0.011038s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:06:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001000s ]
+[2021-05-03T17:06:01+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000406s ]
+[2021-05-03T17:06:24+08:00][sql] CONNECT:[ UseTime:0.015519s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:06:24+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001189s ]
+[2021-05-03T17:06:24+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000370s ]
+[2021-05-03T17:06:26+08:00][sql] CONNECT:[ UseTime:0.018848s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:06:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002168s ]
+[2021-05-03T17:06:26+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000972s ]
+[2021-05-03T17:08:06+08:00][sql] CONNECT:[ UseTime:0.016048s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:08:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000757s ]
+[2021-05-03T17:08:06+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000345s ]
+[2021-05-03T17:13:04+08:00][sql] CONNECT:[ UseTime:0.021334s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:13:04+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000818s ]
+[2021-05-03T17:13:04+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000350s ]
+[2021-05-03T17:13:53+08:00][sql] CONNECT:[ UseTime:0.021418s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:13:53+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000785s ]
+[2021-05-03T17:13:53+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000396s ]
+[2021-05-03T17:15:25+08:00][sql] CONNECT:[ UseTime:0.022336s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:15:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000887s ]
+[2021-05-03T17:15:25+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000387s ]
+[2021-05-03T17:18:11+08:00][sql] CONNECT:[ UseTime:0.013544s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:18:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000853s ]
+[2021-05-03T17:18:11+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000367s ]
+[2021-05-03T17:20:33+08:00][sql] CONNECT:[ UseTime:0.018997s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:20:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000771s ]
+[2021-05-03T17:20:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000393s ]
+[2021-05-03T17:21:14+08:00][sql] CONNECT:[ UseTime:0.014122s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:21:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000836s ]
+[2021-05-03T17:21:14+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000378s ]
+[2021-05-03T17:23:46+08:00][sql] CONNECT:[ UseTime:0.014718s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:23:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001136s ]
+[2021-05-03T17:23:46+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000497s ]
+[2021-05-03T17:25:43+08:00][sql] CONNECT:[ UseTime:0.012318s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:25:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001868s ]
+[2021-05-03T17:25:43+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000780s ]
+[2021-05-03T17:28:23+08:00][sql] CONNECT:[ UseTime:0.019267s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:28:23+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000814s ]
+[2021-05-03T17:28:23+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000378s ]
+[2021-05-03T17:31:21+08:00][sql] CONNECT:[ UseTime:0.017424s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:31:21+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000775s ]
+[2021-05-03T17:31:21+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000397s ]
+[2021-05-03T17:33:03+08:00][sql] CONNECT:[ UseTime:0.015275s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:33:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000870s ]
+[2021-05-03T17:33:03+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000376s ]
+[2021-05-03T17:33:04+08:00][sql] CONNECT:[ UseTime:0.022201s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:33:04+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000736s ]
+[2021-05-03T17:33:04+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000631s ]
+[2021-05-03T17:33:10+08:00][sql] CONNECT:[ UseTime:0.025597s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:33:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000725s ]
+[2021-05-03T17:33:10+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000370s ]
+[2021-05-03T17:33:59+08:00][sql] CONNECT:[ UseTime:0.026687s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:33:59+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002655s ]
+[2021-05-03T17:33:59+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001173s ]
+[2021-05-03T17:34:48+08:00][sql] CONNECT:[ UseTime:0.012868s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:34:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000811s ]
+[2021-05-03T17:34:48+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000387s ]
+[2021-05-03T17:35:01+08:00][sql] CONNECT:[ UseTime:0.012376s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:35:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000813s ]
+[2021-05-03T17:35:01+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000459s ]
+[2021-05-03T17:36:08+08:00][sql] CONNECT:[ UseTime:0.014152s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:36:08+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001674s ]
+[2021-05-03T17:36:08+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000374s ]
+[2021-05-03T17:36:19+08:00][sql] CONNECT:[ UseTime:0.022187s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:36:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000718s ]
+[2021-05-03T17:36:19+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000384s ]
+[2021-05-03T17:36:42+08:00][sql] CONNECT:[ UseTime:0.001429s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:36:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000803s ]
+[2021-05-03T17:36:42+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000382s ]
+[2021-05-03T17:37:43+08:00][sql] CONNECT:[ UseTime:0.022677s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:37:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000897s ]
+[2021-05-03T17:37:43+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000488s ]
+[2021-05-03T17:44:36+08:00][sql] CONNECT:[ UseTime:0.001163s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:44:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001076s ]
+[2021-05-03T17:44:36+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000494s ]
+[2021-05-03T17:46:31+08:00][sql] CONNECT:[ UseTime:0.015098s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:46:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000783s ]
+[2021-05-03T17:46:31+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000388s ]
+[2021-05-03T17:47:44+08:00][sql] CONNECT:[ UseTime:0.001331s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:47:44+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000842s ]
+[2021-05-03T17:47:44+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000385s ]
+[2021-05-03T17:48:31+08:00][sql] CONNECT:[ UseTime:0.015845s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:48:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000776s ]
+[2021-05-03T17:48:31+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000431s ]
+[2021-05-03T17:49:08+08:00][sql] CONNECT:[ UseTime:0.018921s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:49:08+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000796s ]
+[2021-05-03T17:49:08+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000363s ]
+[2021-05-03T17:49:39+08:00][sql] CONNECT:[ UseTime:0.020446s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:49:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001611s ]
+[2021-05-03T17:49:39+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.827494s ]
+[2021-05-03T17:54:38+08:00][sql] CONNECT:[ UseTime:0.011144s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:54:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000815s ]
+[2021-05-03T17:54:38+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000384s ]
+[2021-05-03T17:54:44+08:00][sql] CONNECT:[ UseTime:0.018088s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:54:44+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001068s ]
+[2021-05-03T17:54:44+08:00][sql] SELECT * FROM `tp_admin` [ RunTime:0.031808s ]
+[2021-05-03T17:54:50+08:00][sql] CONNECT:[ UseTime:0.011379s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:54:50+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000821s ]
+[2021-05-03T17:54:50+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000687s ]
+[2021-05-03T17:54:50+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000314s ]
+[2021-05-03T17:54:50+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000372s ]
+[2021-05-03T17:54:50+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000349s ]
+[2021-05-03T17:54:54+08:00][sql] CONNECT:[ UseTime:0.014596s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T17:54:54+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000975s ]
+[2021-05-03T17:54:54+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001090s ]
+[2021-05-03T19:03:23+08:00][sql] CONNECT:[ UseTime:0.001036s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:03:23+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000835s ]
+[2021-05-03T19:03:28+08:00][sql] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:03:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000924s ]
+[2021-05-03T19:03:28+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000487s ]
+[2021-05-03T19:03:31+08:00][sql] CONNECT:[ UseTime:0.012799s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:03:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000750s ]
+[2021-05-03T19:03:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001247s ]
+[2021-05-03T19:03:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000525s ]
+[2021-05-03T19:03:31+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000396s ]
+[2021-05-03T19:03:31+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000360s ]
+[2021-05-03T19:03:33+08:00][sql] CONNECT:[ UseTime:0.022061s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:03:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000695s ]
+[2021-05-03T19:03:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000374s ]
+[2021-05-03T19:11:30+08:00][sql] CONNECT:[ UseTime:0.015424s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:11:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001014s ]
+[2021-05-03T19:11:30+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000387s ]
+[2021-05-03T19:12:22+08:00][sql] CONNECT:[ UseTime:0.017914s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:12:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000770s ]
+[2021-05-03T19:12:22+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000302s ]
+[2021-05-03T19:12:46+08:00][sql] CONNECT:[ UseTime:0.012670s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:12:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000905s ]
+[2021-05-03T19:12:46+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000551s ]
+[2021-05-03T19:18:21+08:00][sql] CONNECT:[ UseTime:0.001228s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:18:21+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001392s ]
+[2021-05-03T19:18:21+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000406s ]
+[2021-05-03T19:18:27+08:00][error] [0]Class 'app\controller\Request' not found[C:\tp6_blog\app\controller\Admins.php:184]
+[2021-05-03T19:28:38+08:00][sql] CONNECT:[ UseTime:0.025430s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:28:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000795s ]
+[2021-05-03T19:28:38+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000366s ]
+[2021-05-03T19:30:33+08:00][sql] CONNECT:[ UseTime:0.017485s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:30:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000829s ]
+[2021-05-03T19:30:33+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000510s ]
+[2021-05-03T19:32:16+08:00][sql] CONNECT:[ UseTime:0.023942s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:32:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001576s ]
+[2021-05-03T19:32:16+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000709s ]
+[2021-05-03T19:32:55+08:00][sql] CONNECT:[ UseTime:0.022051s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:32:55+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000964s ]
+[2021-05-03T19:32:55+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000457s ]
+[2021-05-03T19:40:03+08:00][sql] CONNECT:[ UseTime:0.001098s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:40:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001373s ]
+[2021-05-03T19:40:03+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000500s ]
+[2021-05-03T19:41:52+08:00][sql] CONNECT:[ UseTime:0.021876s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:41:52+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000805s ]
+[2021-05-03T19:41:52+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000370s ]
+[2021-05-03T19:42:12+08:00][sql] CONNECT:[ UseTime:0.000816s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:42:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000915s ]
+[2021-05-03T19:42:12+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000257s ]
+[2021-05-03T19:42:13+08:00][sql] CONNECT:[ UseTime:0.010737s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:42:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000850s ]
+[2021-05-03T19:42:13+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000432s ]
+[2021-05-03T19:42:16+08:00][sql] CONNECT:[ UseTime:0.026073s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:42:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001232s ]
+[2021-05-03T19:42:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001076s ]
+[2021-05-03T19:42:16+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000328s ]
+[2021-05-03T19:42:16+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000393s ]
+[2021-05-03T19:42:16+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000347s ]
+[2021-05-03T19:42:17+08:00][sql] CONNECT:[ UseTime:0.014020s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:42:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001374s ]
+[2021-05-03T19:42:17+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000554s ]
+[2021-05-03T19:44:28+08:00][sql] CONNECT:[ UseTime:0.013193s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:44:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000771s ]
+[2021-05-03T19:44:28+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000326s ]
+[2021-05-03T19:56:09+08:00][sql] CONNECT:[ UseTime:0.001314s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T19:56:09+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000902s ]
+[2021-05-03T19:56:09+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000402s ]
+[2021-05-03T20:09:18+08:00][sql] CONNECT:[ UseTime:0.001454s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:09:18+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000899s ]
+[2021-05-03T20:09:18+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000370s ]
+[2021-05-03T20:10:01+08:00][sql] CONNECT:[ UseTime:0.021938s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:10:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000917s ]
+[2021-05-03T20:10:01+08:00][error] [0]Call to undefined function app\controller\addArticle()[C:\tp6_blog\app\controller\Admins.php:218]
+[2021-05-03T20:10:42+08:00][sql] CONNECT:[ UseTime:0.022527s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:10:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000931s ]
+[2021-05-03T20:10:42+08:00][error] [10501]SQLSTATE[HY000]: General error: 1364 Field 'article_title' doesn't have a default value[C:\tp6_blog\vendor\topthink\think-orm\src\db\PDOConnection.php:795]
+[2021-05-03T20:11:37+08:00][sql] CONNECT:[ UseTime:0.017422s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:11:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001049s ]
+[2021-05-03T20:11:37+08:00][sql] INSERT INTO `tp_article` SET `article_title` = '第一篇测试文章' , `article_writer` = '张测试' , `article_time` = 1620043897 , `cate_id` = 1 , `article_content` = '<p>测试文章哈哈哈哈</p>' , `article_img` = 'topic/20210503\\ca96a395b21015fb3dd93b1ab8213737.jpg' [ RunTime:0.002177s ]
+[2021-05-03T20:11:38+08:00][sql] CONNECT:[ UseTime:0.014212s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:11:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000888s ]
+[2021-05-03T20:11:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000633s ]
+[2021-05-03T20:11:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000322s ]
+[2021-05-03T20:11:38+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000454s ]
+[2021-05-03T20:11:38+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000455s ]
+[2021-05-03T20:13:49+08:00][sql] CONNECT:[ UseTime:0.026074s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:13:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000848s ]
+[2021-05-03T20:13:49+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000397s ]
+[2021-05-03T20:14:10+08:00][sql] CONNECT:[ UseTime:0.012307s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:14:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000949s ]
+[2021-05-03T20:14:10+08:00][sql] INSERT INTO `tp_article` SET `article_title` = '第二篇测试文章' , `article_writer` = '张熙玲' , `article_time` = 1620044050 , `cate_id` = 5 , `article_content` = '<p><img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/></p><p>△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图</p><p>当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）</p><p></p><p>（编辑 王瑶）</p>' , `article_img` = 'topic/20210503\\9ffd5e3a36bc3b31509e935be67da47a.jpg' [ RunTime:0.002292s ]
+[2021-05-03T20:14:13+08:00][sql] CONNECT:[ UseTime:0.019694s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-03T20:14:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000780s ]
+[2021-05-03T20:14:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000638s ]
+[2021-05-03T20:14:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000322s ]
+[2021-05-03T20:14:13+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000406s ]
+[2021-05-03T20:14:13+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000558s ]

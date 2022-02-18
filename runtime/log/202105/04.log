@@ -1,0 +1,385 @@
+[2021-05-04T13:08:23+08:00][sql] CONNECT:[ UseTime:0.001400s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:08:23+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001077s ]
+[2021-05-04T13:08:27+08:00][sql] CONNECT:[ UseTime:0.014235s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:08:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000830s ]
+[2021-05-04T13:08:27+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.154402s ]
+[2021-05-04T13:08:31+08:00][sql] CONNECT:[ UseTime:0.019838s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:08:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000817s ]
+[2021-05-04T13:08:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001345s ]
+[2021-05-04T13:08:31+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000685s ]
+[2021-05-04T13:08:31+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000432s ]
+[2021-05-04T13:08:31+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000347s ]
+[2021-05-04T13:14:26+08:00][sql] CONNECT:[ UseTime:0.001040s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:14:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000900s ]
+[2021-05-04T13:14:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000621s ]
+[2021-05-04T13:14:26+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000278s ]
+[2021-05-04T13:14:26+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000696s ]
+[2021-05-04T13:14:26+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000468s ]
+[2021-05-04T13:14:29+08:00][sql] CONNECT:[ UseTime:0.014147s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:14:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000852s ]
+[2021-05-04T13:16:29+08:00][sql] CONNECT:[ UseTime:0.025456s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:16:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000978s ]
+[2021-05-04T13:16:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000693s ]
+[2021-05-04T13:16:29+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000507s ]
+[2021-05-04T13:16:29+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000448s ]
+[2021-05-04T13:16:29+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000371s ]
+[2021-05-04T13:16:31+08:00][sql] CONNECT:[ UseTime:0.019900s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:16:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000814s ]
+[2021-05-04T13:16:31+08:00][error] [8]未定义变量: category[C:\tp6_blog\runtime\temp\8cc8059967ba308023e800bad4e698da.php:129]
+[2021-05-04T13:18:19+08:00][sql] CONNECT:[ UseTime:0.017410s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:18:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000831s ]
+[2021-05-04T13:18:19+08:00][error] [8]未定义变量: category[C:\tp6_blog\app\controller\Admins.php:235]
+[2021-05-04T13:18:24+08:00][sql] CONNECT:[ UseTime:0.013840s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:18:24+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000990s ]
+[2021-05-04T13:18:24+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000654s ]
+[2021-05-04T13:18:24+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000378s ]
+[2021-05-04T13:18:24+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000485s ]
+[2021-05-04T13:18:24+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000506s ]
+[2021-05-04T13:18:26+08:00][sql] CONNECT:[ UseTime:0.022986s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:18:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.920886s ]
+[2021-05-04T13:18:26+08:00][error] [8]未定义变量: category[C:\tp6_blog\app\controller\Admins.php:235]
+[2021-05-04T13:18:57+08:00][sql] CONNECT:[ UseTime:0.017713s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:18:57+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.069350s ]
+[2021-05-04T13:18:57+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.003042s ]
+[2021-05-04T13:27:36+08:00][sql] CONNECT:[ UseTime:0.000948s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:27:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000764s ]
+[2021-05-04T13:27:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000625s ]
+[2021-05-04T13:27:36+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000346s ]
+[2021-05-04T13:27:36+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000418s ]
+[2021-05-04T13:27:36+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000398s ]
+[2021-05-04T13:27:38+08:00][sql] CONNECT:[ UseTime:0.021959s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:27:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.440413s ]
+[2021-05-04T13:27:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002435s ]
+[2021-05-04T13:27:38+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000871s ]
+[2021-05-04T13:27:38+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.001375s ]
+[2021-05-04T13:27:38+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000831s ]
+[2021-05-04T13:27:46+08:00][sql] CONNECT:[ UseTime:0.020868s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:27:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000737s ]
+[2021-05-04T13:27:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000653s ]
+[2021-05-04T13:27:46+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000339s ]
+[2021-05-04T13:27:46+08:00][error] [8]未定义变量: article[C:\tp6_blog\app\controller\Admins.php:237]
+[2021-05-04T13:28:02+08:00][sql] CONNECT:[ UseTime:0.021571s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:28:02+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000751s ]
+[2021-05-04T13:28:02+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000636s ]
+[2021-05-04T13:28:02+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000547s ]
+[2021-05-04T13:28:02+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000458s ]
+[2021-05-04T13:32:46+08:00][sql] CONNECT:[ UseTime:0.022569s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:32:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.002547s ]
+[2021-05-04T13:32:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002340s ]
+[2021-05-04T13:32:46+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000917s ]
+[2021-05-04T13:32:46+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.001186s ]
+[2021-05-04T13:32:46+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001091s ]
+[2021-05-04T13:32:47+08:00][sql] CONNECT:[ UseTime:0.025088s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:32:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000771s ]
+[2021-05-04T13:32:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000632s ]
+[2021-05-04T13:32:47+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000375s ]
+[2021-05-04T13:32:47+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000419s ]
+[2021-05-04T13:33:14+08:00][sql] CONNECT:[ UseTime:0.021312s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:33:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000735s ]
+[2021-05-04T13:33:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000708s ]
+[2021-05-04T13:33:14+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000349s ]
+[2021-05-04T13:33:14+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000488s ]
+[2021-05-04T13:33:56+08:00][sql] CONNECT:[ UseTime:0.022839s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:33:56+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000775s ]
+[2021-05-04T13:33:56+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000633s ]
+[2021-05-04T13:33:56+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000382s ]
+[2021-05-04T13:33:56+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000455s ]
+[2021-05-04T13:37:03+08:00][sql] CONNECT:[ UseTime:0.026616s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:37:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002753s ]
+[2021-05-04T13:37:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.002928s ]
+[2021-05-04T13:37:03+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001368s ]
+[2021-05-04T13:37:03+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.001055s ]
+[2021-05-04T13:37:36+08:00][sql] CONNECT:[ UseTime:0.025055s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:37:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000993s ]
+[2021-05-04T13:37:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001006s ]
+[2021-05-04T13:37:36+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000699s ]
+[2021-05-04T13:37:36+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000400s ]
+[2021-05-04T13:46:21+08:00][sql] CONNECT:[ UseTime:0.013210s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:46:21+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001017s ]
+[2021-05-04T13:46:21+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000996s ]
+[2021-05-04T13:46:21+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000619s ]
+[2021-05-04T13:46:21+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000542s ]
+[2021-05-04T13:46:34+08:00][sql] CONNECT:[ UseTime:0.015034s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:46:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000906s ]
+[2021-05-04T13:46:34+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000633s ]
+[2021-05-04T13:46:34+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000359s ]
+[2021-05-04T13:46:34+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000598s ]
+[2021-05-04T13:46:36+08:00][sql] CONNECT:[ UseTime:0.011097s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:46:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.021170s ]
+[2021-05-04T13:46:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000754s ]
+[2021-05-04T13:46:36+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.023871s ]
+[2021-05-04T13:46:36+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.001425s ]
+[2021-05-04T13:47:06+08:00][sql] CONNECT:[ UseTime:0.015326s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:47:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000820s ]
+[2021-05-04T13:47:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000675s ]
+[2021-05-04T13:47:06+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000398s ]
+[2021-05-04T13:47:06+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000970s ]
+[2021-05-04T13:49:50+08:00][sql] CONNECT:[ UseTime:0.025006s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:49:50+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000827s ]
+[2021-05-04T13:49:50+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001325s ]
+[2021-05-04T13:49:50+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000724s ]
+[2021-05-04T13:49:50+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.001606s ]
+[2021-05-04T13:49:50+08:00][error] [0]语法错误: unexpected 'else' (T_ELSE)[C:\tp6_blog\runtime\temp\8cc8059967ba308023e800bad4e698da.php:131]
+[2021-05-04T13:50:52+08:00][sql] CONNECT:[ UseTime:0.022311s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:50:52+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001161s ]
+[2021-05-04T13:50:52+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000942s ]
+[2021-05-04T13:50:52+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000398s ]
+[2021-05-04T13:50:52+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000476s ]
+[2021-05-04T13:50:58+08:00][sql] CONNECT:[ UseTime:0.016363s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:50:58+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001205s ]
+[2021-05-04T13:50:58+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000864s ]
+[2021-05-04T13:50:58+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000453s ]
+[2021-05-04T13:50:58+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000338s ]
+[2021-05-04T13:50:58+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000701s ]
+[2021-05-04T13:51:00+08:00][sql] CONNECT:[ UseTime:0.015409s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:51:00+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000687s ]
+[2021-05-04T13:51:00+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001585s ]
+[2021-05-04T13:51:00+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000427s ]
+[2021-05-04T13:51:00+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 3 LIMIT 1 [ RunTime:0.000384s ]
+[2021-05-04T13:51:05+08:00][sql] CONNECT:[ UseTime:0.020119s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:51:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000847s ]
+[2021-05-04T13:51:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000658s ]
+[2021-05-04T13:51:05+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000395s ]
+[2021-05-04T13:51:05+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000466s ]
+[2021-05-04T13:51:05+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000534s ]
+[2021-05-04T13:53:13+08:00][sql] CONNECT:[ UseTime:0.001256s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:53:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000991s ]
+[2021-05-04T13:53:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000722s ]
+[2021-05-04T13:53:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000347s ]
+[2021-05-04T13:53:13+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000424s ]
+[2021-05-04T13:53:13+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000412s ]
+[2021-05-04T13:53:16+08:00][sql] CONNECT:[ UseTime:0.011383s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:53:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000841s ]
+[2021-05-04T13:53:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000685s ]
+[2021-05-04T13:53:16+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000363s ]
+[2021-05-04T13:53:16+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000364s ]
+[2021-05-04T13:55:39+08:00][sql] CONNECT:[ UseTime:0.001624s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T13:55:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000825s ]
+[2021-05-04T13:55:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000646s ]
+[2021-05-04T13:55:39+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000447s ]
+[2021-05-04T13:55:39+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000500s ]
+[2021-05-04T14:04:43+08:00][sql] CONNECT:[ UseTime:0.001455s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:04:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000880s ]
+[2021-05-04T14:04:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000632s ]
+[2021-05-04T14:04:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000318s ]
+[2021-05-04T14:04:43+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000397s ]
+[2021-05-04T14:04:43+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000459s ]
+[2021-05-04T14:04:46+08:00][sql] CONNECT:[ UseTime:0.012775s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:04:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001785s ]
+[2021-05-04T14:04:46+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000808s ]
+[2021-05-04T14:04:46+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000411s ]
+[2021-05-04T14:04:46+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000493s ]
+[2021-05-04T14:06:10+08:00][sql] CONNECT:[ UseTime:0.012650s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:06:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000796s ]
+[2021-05-04T14:06:10+08:00][error] [8]未定义变量: path[C:\tp6_blog\app\controller\Admins.php:261]
+[2021-05-04T14:06:30+08:00][sql] CONNECT:[ UseTime:0.026391s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:06:30+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000765s ]
+[2021-05-04T14:06:30+08:00][error] [0]Too few arguments to function app\model\Article::editArticle(), 5 passed in C:\tp6_blog\app\controller\Admins.php on line 261 and exactly 6 expected[C:\tp6_blog\app\model\Article.php:41]
+[2021-05-04T14:07:27+08:00][sql] CONNECT:[ UseTime:0.016595s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:07:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000818s ]
+[2021-05-04T14:07:27+08:00][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'article' in 'where clause'[C:\tp6_blog\vendor\topthink\think-orm\src\db\PDOConnection.php:795]
+[2021-05-04T14:07:56+08:00][sql] CONNECT:[ UseTime:0.010714s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:07:56+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000875s ]
+[2021-05-04T14:07:56+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '修改作者' , `article_time` = 1620108476 , `cate_id` = 3 , `article_content` = '<p>&lt;p&gt;更改文章内容&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000355s ]
+[2021-05-04T14:07:57+08:00][sql] CONNECT:[ UseTime:0.000977s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:07:57+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001778s ]
+[2021-05-04T14:07:57+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000636s ]
+[2021-05-04T14:07:57+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000304s ]
+[2021-05-04T14:07:57+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000507s ]
+[2021-05-04T14:07:57+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000366s ]
+[2021-05-04T14:08:01+08:00][sql] CONNECT:[ UseTime:0.012334s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:08:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001146s ]
+[2021-05-04T14:08:01+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000788s ]
+[2021-05-04T14:08:01+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000316s ]
+[2021-05-04T14:08:01+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000386s ]
+[2021-05-04T14:08:01+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000358s ]
+[2021-05-04T14:08:03+08:00][sql] CONNECT:[ UseTime:0.020274s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:08:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000760s ]
+[2021-05-04T14:08:03+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000724s ]
+[2021-05-04T14:08:03+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000589s ]
+[2021-05-04T14:08:03+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000386s ]
+[2021-05-04T14:08:11+08:00][sql] CONNECT:[ UseTime:0.018873s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:08:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000792s ]
+[2021-05-04T14:08:11+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108491 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000444s ]
+[2021-05-04T14:08:12+08:00][sql] CONNECT:[ UseTime:0.001115s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:08:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000817s ]
+[2021-05-04T14:08:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000608s ]
+[2021-05-04T14:08:12+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000360s ]
+[2021-05-04T14:08:12+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000415s ]
+[2021-05-04T14:08:12+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000411s ]
+[2021-05-04T14:09:58+08:00][sql] CONNECT:[ UseTime:0.014194s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:09:58+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.001142s ]
+[2021-05-04T14:09:58+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000697s ]
+[2021-05-04T14:09:58+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000343s ]
+[2021-05-04T14:09:58+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000487s ]
+[2021-05-04T14:10:12+08:00][sql] CONNECT:[ UseTime:0.021298s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:10:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000774s ]
+[2021-05-04T14:10:12+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108612 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000618s ]
+[2021-05-04T14:10:17+08:00][sql] CONNECT:[ UseTime:0.022901s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:10:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000796s ]
+[2021-05-04T14:10:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000589s ]
+[2021-05-04T14:10:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000282s ]
+[2021-05-04T14:10:17+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000386s ]
+[2021-05-04T14:10:17+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000370s ]
+[2021-05-04T14:10:37+08:00][sql] CONNECT:[ UseTime:0.010426s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:10:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001101s ]
+[2021-05-04T14:10:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000818s ]
+[2021-05-04T14:10:37+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000324s ]
+[2021-05-04T14:10:37+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000390s ]
+[2021-05-04T14:10:37+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000348s ]
+[2021-05-04T14:10:38+08:00][sql] CONNECT:[ UseTime:0.021664s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:10:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000785s ]
+[2021-05-04T14:10:38+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000690s ]
+[2021-05-04T14:10:38+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000483s ]
+[2021-05-04T14:10:38+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000677s ]
+[2021-05-04T14:10:45+08:00][sql] CONNECT:[ UseTime:0.022182s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:10:45+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000820s ]
+[2021-05-04T14:10:45+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108645 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000344s ]
+[2021-05-04T14:11:18+08:00][sql] CONNECT:[ UseTime:0.020742s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:11:18+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000775s ]
+[2021-05-04T14:11:18+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108678 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000419s ]
+[2021-05-04T14:11:27+08:00][sql] CONNECT:[ UseTime:0.014837s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:11:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000730s ]
+[2021-05-04T14:11:27+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108687 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000607s ]
+[2021-05-04T14:12:23+08:00][sql] CONNECT:[ UseTime:0.001778s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:12:23+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000748s ]
+[2021-05-04T14:12:23+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108743 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000808s ]
+[2021-05-04T14:12:37+08:00][sql] CONNECT:[ UseTime:0.011697s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:12:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000836s ]
+[2021-05-04T14:12:37+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108757 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000350s ]
+[2021-05-04T14:12:40+08:00][sql] CONNECT:[ UseTime:0.015857s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:12:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000713s ]
+[2021-05-04T14:12:40+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108760 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` IS NULL [ RunTime:0.000344s ]
+[2021-05-04T14:12:48+08:00][sql] CONNECT:[ UseTime:0.016336s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:12:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000917s ]
+[2021-05-04T14:12:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000683s ]
+[2021-05-04T14:12:48+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000344s ]
+[2021-05-04T14:12:48+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000357s ]
+[2021-05-04T14:12:57+08:00][sql] CONNECT:[ UseTime:0.017837s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:12:57+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000738s ]
+[2021-05-04T14:12:57+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '张熙玲' , `article_time` = 1620108777 , `cate_id` = 5 , `article_content` = '<p>&lt;p&gt;&lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&gt;&lt;/p&gt;&lt;p&gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&lt;/p&gt;&lt;p&gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;（编辑 王瑶）&lt;/p&gt;                </p>'  WHERE  `article_id` = 4 [ RunTime:0.015653s ]
+[2021-05-04T14:13:08+08:00][sql] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:13:08+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.002431s ]
+[2021-05-04T14:13:08+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000776s ]
+[2021-05-04T14:13:08+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000327s ]
+[2021-05-04T14:13:08+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000395s ]
+[2021-05-04T14:13:08+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000381s ]
+[2021-05-04T14:40:59+08:00][sql] CONNECT:[ UseTime:0.001131s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:40:59+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.002009s ]
+[2021-05-04T14:41:06+08:00][sql] CONNECT:[ UseTime:0.017887s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:41:06+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000773s ]
+[2021-05-04T14:41:06+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000386s ]
+[2021-05-04T14:41:17+08:00][sql] CONNECT:[ UseTime:0.014233s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:41:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000975s ]
+[2021-05-04T14:41:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000643s ]
+[2021-05-04T14:41:17+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000312s ]
+[2021-05-04T14:41:17+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000399s ]
+[2021-05-04T14:41:17+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000348s ]
+[2021-05-04T14:41:19+08:00][sql] CONNECT:[ UseTime:0.017424s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:41:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000723s ]
+[2021-05-04T14:41:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000635s ]
+[2021-05-04T14:41:19+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000376s ]
+[2021-05-04T14:41:19+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000410s ]
+[2021-05-04T14:43:42+08:00][sql] CONNECT:[ UseTime:0.010796s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:43:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000820s ]
+[2021-05-04T14:43:42+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '修改作者' , `article_time` = 1620110622 , `cate_id` = 3 , `article_content` = '<p>&lt;p&gt;修改文章内容&amp;lt;p&amp;gt;&amp;lt;img src=\"https://pics0.baidu.com/feed/8b82b9014a90f603545e95b60877c213b251edc6.jpeg?token=1801f9ab9708489274f1f3e816b54e65\"/&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;△图片来源：菲律宾参议员克里斯托弗·吴的社交媒体直播截图&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;当地时间5月3日晚，菲律宾总统杜特尔特接种中国国药新冠疫苗。（总台记者 黄铮铮）&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;（编辑 王瑶）&amp;lt;/p&amp;gt;                &lt;/p&gt;                </p>'  WHERE  `article_id` = 4 [ RunTime:0.000610s ]
+[2021-05-04T14:43:43+08:00][sql] CONNECT:[ UseTime:0.017739s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:43:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000778s ]
+[2021-05-04T14:43:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000607s ]
+[2021-05-04T14:43:43+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000301s ]
+[2021-05-04T14:43:43+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000453s ]
+[2021-05-04T14:43:43+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000330s ]
+[2021-05-04T14:43:48+08:00][sql] CONNECT:[ UseTime:0.020104s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:43:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000780s ]
+[2021-05-04T14:43:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000657s ]
+[2021-05-04T14:43:48+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000392s ]
+[2021-05-04T14:43:48+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000412s ]
+[2021-05-04T14:53:48+08:00][sql] CONNECT:[ UseTime:0.014373s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:53:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001027s ]
+[2021-05-04T14:53:48+08:00][sql] UPDATE `tp_article`  SET `article_title` = '修改文章标题' , `article_writer` = '修改作者' , `article_time` = 1620111228 , `cate_id` = 3 , `article_content` = '<p>日前，岛内“绿媒”刊登了一条所谓“解放军辽宁舰失去动力被拖回港”的不实新闻，还配上了戏谑的导语，让岛内不少“台独”分子极为兴奋跳脚。但有分析人士通过查阅新闻内文和素材发现，这家“绿媒”的造谣水准实在是让人哭笑不得。因为“辽宁舰失去动力”这一说法被其表述为“网传”，而这个“网”居然只是岛内日常闲聊、插科打诨的论坛“批踢踢实业坊”（PTT），这一消息来源简直离谱。所以“台独”分子高兴的太早了，毕竟“打脸”的消息来得太快。</p><p>　　<img src=\"https://nimg.ws.126.net/?url=http%3A%2F%2Fdingyue.ws.126.net%2F2021%2F0504%2Fc4e9b45ej00qsk6n60025c000rs00kum.jpg&amp;thumbnail=650x2147483647&amp;quality=80&amp;type=jpg\"/><br/></p><p>　　据相关报道，日本统合幕僚监部网站4月27日公布了解放军航母辽宁舰编队的最新动向，并发布多张从空中拍摄的辽宁舰编队军舰和舰载机的照片。根据日方消息，当地时间4月26日下午7时左右，日本海上自卫队在宫古岛以南约160公里的海域发现了向北航行的辽宁舰编队。日方提到，辽宁舰编队穿越冲绳本岛与宫古岛之间的宫古海峡北上，随后进入东海海域。</p>'  WHERE  `article_id` = 4 [ RunTime:0.000677s ]
+[2021-05-04T14:53:49+08:00][sql] CONNECT:[ UseTime:0.025917s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:53:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000753s ]
+[2021-05-04T14:53:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000610s ]
+[2021-05-04T14:53:49+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000335s ]
+[2021-05-04T14:53:49+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000454s ]
+[2021-05-04T14:53:49+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000682s ]
+[2021-05-04T14:53:52+08:00][sql] CONNECT:[ UseTime:0.013383s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T14:53:52+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000780s ]
+[2021-05-04T14:53:52+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000706s ]
+[2021-05-04T14:53:52+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000342s ]
+[2021-05-04T14:53:52+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 4 LIMIT 1 [ RunTime:0.000516s ]
+[2021-05-04T15:02:10+08:00][sql] CONNECT:[ UseTime:0.001127s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:02:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000765s ]
+[2021-05-04T15:02:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000630s ]
+[2021-05-04T15:02:10+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000379s ]
+[2021-05-04T15:02:10+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000557s ]
+[2021-05-04T15:02:10+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000296s ]
+[2021-05-04T15:02:11+08:00][sql] CONNECT:[ UseTime:0.019080s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:02:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000945s ]
+[2021-05-04T15:02:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000677s ]
+[2021-05-04T15:02:11+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000382s ]
+[2021-05-04T15:02:11+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000420s ]
+[2021-05-04T15:02:11+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000387s ]
+[2021-05-04T15:02:14+08:00][sql] CONNECT:[ UseTime:0.022966s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:02:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001366s ]
+[2021-05-04T15:02:14+08:00][error] [10500]method not exist:think\db\Query->delArticle[C:\tp6_blog\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2021-05-04T15:02:47+08:00][sql] CONNECT:[ UseTime:0.024909s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:02:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000730s ]
+[2021-05-04T15:02:47+08:00][error] [10500]method not exist:think\db\Query->delArticle[C:\tp6_blog\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2021-05-04T15:03:14+08:00][sql] CONNECT:[ UseTime:0.022854s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:03:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.003889s ]
+[2021-05-04T15:03:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.002397s ]
+[2021-05-04T15:03:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000940s ]
+[2021-05-04T15:03:14+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.001550s ]
+[2021-05-04T15:03:14+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.001184s ]
+[2021-05-04T15:03:15+08:00][sql] CONNECT:[ UseTime:0.026463s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:03:15+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.002252s ]
+[2021-05-04T15:03:15+08:00][error] [10500]method not exist:think\db\Query->delArticle[C:\tp6_blog\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2021-05-04T15:03:19+08:00][sql] CONNECT:[ UseTime:0.020885s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:03:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000831s ]
+[2021-05-04T15:03:19+08:00][error] [10500]method not exist:think\db\Query->delArticle[C:\tp6_blog\vendor\topthink\think-orm\src\db\BaseQuery.php:117]
+[2021-05-04T15:07:07+08:00][sql] CONNECT:[ UseTime:0.019942s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:07:07+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000945s ]
+[2021-05-04T15:07:07+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000960s ]
+[2021-05-04T15:07:07+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000326s ]
+[2021-05-04T15:07:07+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000488s ]
+[2021-05-04T15:07:07+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000388s ]
+[2021-05-04T15:07:12+08:00][sql] CONNECT:[ UseTime:0.011841s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:07:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000965s ]
+[2021-05-04T15:07:12+08:00][sql] SELECT * FROM `tp_article` WHERE  `article_id` = 3 [ RunTime:0.000410s ]
+[2021-05-04T15:07:12+08:00][sql] DELETE FROM `tp_article` WHERE  `article_id` = 3 [ RunTime:0.000464s ]
+[2021-05-04T15:07:13+08:00][sql] CONNECT:[ UseTime:0.016151s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:07:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.001163s ]
+[2021-05-04T15:07:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000608s ]
+[2021-05-04T15:07:13+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000305s ]
+[2021-05-04T15:07:13+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000387s ]
+[2021-05-04T15:07:13+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000348s ]
+[2021-05-04T15:07:14+08:00][sql] CONNECT:[ UseTime:0.023929s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T15:07:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_article` [ RunTime:0.000748s ]
+[2021-05-04T15:07:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000540s ]
+[2021-05-04T15:07:14+08:00][sql] SELECT COUNT(*) AS think_count FROM `tp_article` [ RunTime:0.000311s ]
+[2021-05-04T15:07:14+08:00][sql] SELECT * FROM `tp_article` ORDER BY `article_time` DESC LIMIT 0,10 [ RunTime:0.000377s ]
+[2021-05-04T15:07:14+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000361s ]
+[2021-05-04T17:37:10+08:00][sql] CONNECT:[ UseTime:0.022706s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:37:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000911s ]
+[2021-05-04T17:37:17+08:00][sql] CONNECT:[ UseTime:0.020157s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:37:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000821s ]
+[2021-05-04T17:37:20+08:00][sql] CONNECT:[ UseTime:0.011232s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:37:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000901s ]
+[2021-05-04T17:37:20+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000516s ]
+[2021-05-04T17:45:07+08:00][sql] CONNECT:[ UseTime:0.001186s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:45:07+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000902s ]
+[2021-05-04T17:45:11+08:00][sql] CONNECT:[ UseTime:0.015891s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:45:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000892s ]
+[2021-05-04T17:45:11+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000781s ]
+[2021-05-04T17:45:14+08:00][sql] CONNECT:[ UseTime:0.024110s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:45:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000826s ]
+[2021-05-04T17:45:14+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000460s ]
+[2021-05-04T17:45:28+08:00][sql] CONNECT:[ UseTime:0.026275s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:45:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001783s ]
+[2021-05-04T17:45:32+08:00][sql] CONNECT:[ UseTime:0.018849s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T17:45:32+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001163s ]
+[2021-05-04T17:45:32+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000546s ]
+[2021-05-04T18:46:14+08:00][sql] CONNECT:[ UseTime:0.016449s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-05-04T18:46:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_category` [ RunTime:0.000764s ]
+[2021-05-04T18:46:14+08:00][sql] SELECT * FROM `tp_category` ORDER BY `cate_id` DESC [ RunTime:0.000361s ]

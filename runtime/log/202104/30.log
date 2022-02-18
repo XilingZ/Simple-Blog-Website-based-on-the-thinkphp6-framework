@@ -1,0 +1,249 @@
+[2021-04-30T20:14:43+08:00][sql] CONNECT:[ UseTime:0.178244s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:14:43+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.079628s ]
+[2021-04-30T20:14:45+08:00][sql] CONNECT:[ UseTime:0.025748s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:14:45+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001307s ]
+[2021-04-30T20:14:45+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000599s ]
+[2021-04-30T20:29:11+08:00][sql] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:29:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000910s ]
+[2021-04-30T20:29:13+08:00][sql] CONNECT:[ UseTime:0.014710s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:29:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000833s ]
+[2021-04-30T20:29:13+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000387s ]
+[2021-04-30T20:36:16+08:00][sql] CONNECT:[ UseTime:0.001076s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:36:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.054527s ]
+[2021-04-30T20:36:16+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001003s ]
+[2021-04-30T20:36:26+08:00][sql] CONNECT:[ UseTime:0.010693s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:36:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000966s ]
+[2021-04-30T20:36:26+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000378s ]
+[2021-04-30T20:43:58+08:00][sql] CONNECT:[ UseTime:0.015827s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:43:58+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.018753s ]
+[2021-04-30T20:43:58+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001037s ]
+[2021-04-30T20:46:14+08:00][sql] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:46:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.077913s ]
+[2021-04-30T20:46:14+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001280s ]
+[2021-04-30T20:46:36+08:00][sql] CONNECT:[ UseTime:0.001484s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:46:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.003911s ]
+[2021-04-30T20:46:36+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000434s ]
+[2021-04-30T20:46:49+08:00][sql] CONNECT:[ UseTime:0.016114s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:46:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.026555s ]
+[2021-04-30T20:46:49+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000625s ]
+[2021-04-30T20:50:36+08:00][sql] CONNECT:[ UseTime:0.022745s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:50:36+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.010678s ]
+[2021-04-30T20:50:36+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001586s ]
+[2021-04-30T20:51:28+08:00][sql] CONNECT:[ UseTime:0.024833s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:51:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.020591s ]
+[2021-04-30T20:51:28+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000442s ]
+[2021-04-30T20:52:40+08:00][sql] CONNECT:[ UseTime:0.025592s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:52:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.022808s ]
+[2021-04-30T20:52:40+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001257s ]
+[2021-04-30T20:53:29+08:00][sql] CONNECT:[ UseTime:0.022737s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:53:29+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.023921s ]
+[2021-04-30T20:53:29+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001408s ]
+[2021-04-30T20:53:48+08:00][sql] CONNECT:[ UseTime:0.011620s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:53:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.994614s ]
+[2021-04-30T20:53:48+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001445s ]
+[2021-04-30T20:53:50+08:00][sql] CONNECT:[ UseTime:0.020078s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:53:50+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.236523s ]
+[2021-04-30T20:53:50+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001210s ]
+[2021-04-30T20:57:08+08:00][sql] CONNECT:[ UseTime:0.023529s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:57:08+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.008093s ]
+[2021-04-30T20:57:08+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000447s ]
+[2021-04-30T20:58:35+08:00][sql] CONNECT:[ UseTime:0.022964s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:58:35+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.020558s ]
+[2021-04-30T20:58:35+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000581s ]
+[2021-04-30T20:58:49+08:00][sql] CONNECT:[ UseTime:0.012628s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:58:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001602s ]
+[2021-04-30T20:58:49+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000449s ]
+[2021-04-30T20:59:10+08:00][sql] CONNECT:[ UseTime:0.017295s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T20:59:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.003873s ]
+[2021-04-30T20:59:10+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000443s ]
+[2021-04-30T21:09:27+08:00][sql] CONNECT:[ UseTime:0.001037s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T21:09:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.013742s ]
+[2021-04-30T21:09:27+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000734s ]
+[2021-04-30T22:53:18+08:00][sql] CONNECT:[ UseTime:0.001120s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T22:53:18+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.001892s ]
+[2021-04-30T22:53:20+08:00][sql] CONNECT:[ UseTime:0.015087s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T22:53:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_admin` [ RunTime:0.000889s ]
+[2021-04-30T22:53:20+08:00][sql] SELECT * FROM `tp_admin` WHERE  `admin_name` = 'admin' LIMIT 1 [ RunTime:0.000382s ]
+[2021-04-30T22:53:25+08:00][sql] CONNECT:[ UseTime:0.014680s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T22:53:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001175s ]
+[2021-04-30T22:53:25+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000419s ]
+[2021-04-30T22:55:20+08:00][sql] CONNECT:[ UseTime:0.014910s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T22:55:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000944s ]
+[2021-04-30T22:55:20+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000449s ]
+[2021-04-30T22:55:20+08:00][error] [2]Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP)[C:\tp6_blog\app\controller\Admins.php:48]
+[2021-04-30T22:55:33+08:00][sql] CONNECT:[ UseTime:0.019021s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T22:55:33+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001509s ]
+[2021-04-30T22:55:33+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[2021-04-30T22:55:33+08:00][error] [2]Use of undefined constant phone - assumed 'phone' (this will throw an Error in a future version of PHP)[C:\tp6_blog\app\controller\Admins.php:48]
+[2021-04-30T22:55:40+08:00][sql] CONNECT:[ UseTime:0.013518s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T22:55:40+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000765s ]
+[2021-04-30T22:55:40+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+[2021-04-30T23:08:42+08:00][sql] CONNECT:[ UseTime:0.011869s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:08:42+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001393s ]
+[2021-04-30T23:08:42+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000536s ]
+[2021-04-30T23:18:20+08:00][sql] CONNECT:[ UseTime:0.020714s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:18:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000794s ]
+[2021-04-30T23:18:20+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000397s ]
+[2021-04-30T23:18:25+08:00][sql] CONNECT:[ UseTime:0.021885s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:18:25+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001252s ]
+[2021-04-30T23:18:25+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+[2021-04-30T23:18:27+08:00][sql] CONNECT:[ UseTime:0.014615s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:18:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.020355s ]
+[2021-04-30T23:18:27+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000429s ]
+[2021-04-30T23:30:47+08:00][sql] CONNECT:[ UseTime:0.020224s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:30:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.015542s ]
+[2021-04-30T23:30:47+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000423s ]
+[2021-04-30T23:31:05+08:00][sql] CONNECT:[ UseTime:0.001347s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:31:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001046s ]
+[2021-04-30T23:31:05+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000665s ]
+[2021-04-30T23:31:05+08:00][error] [0]filter_var() expects parameter 2 to be int, bool given[C:\tp6_blog\vendor\topthink\framework\src\think\Request.php:1410]
+[2021-04-30T23:31:28+08:00][sql] CONNECT:[ UseTime:0.020492s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:31:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000875s ]
+[2021-04-30T23:31:28+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000343s ]
+[2021-04-30T23:32:19+08:00][sql] CONNECT:[ UseTime:0.012611s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:32:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001883s ]
+[2021-04-30T23:32:19+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+[2021-04-30T23:32:20+08:00][sql] CONNECT:[ UseTime:0.014068s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:32:20+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000748s ]
+[2021-04-30T23:32:20+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[2021-04-30T23:32:20+08:00][error] [0]filter_var() expects parameter 2 to be int, bool given[C:\tp6_blog\vendor\topthink\framework\src\think\Request.php:1410]
+[2021-04-30T23:34:05+08:00][sql] CONNECT:[ UseTime:0.019888s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:34:05+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.950570s ]
+[2021-04-30T23:34:05+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001277s ]
+[2021-04-30T23:34:11+08:00][sql] CONNECT:[ UseTime:0.023025s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:34:11+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001355s ]
+[2021-04-30T23:34:11+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+[2021-04-30T23:34:16+08:00][sql] CONNECT:[ UseTime:0.024161s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:34:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.002141s ]
+[2021-04-30T23:34:16+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000396s ]
+[2021-04-30T23:36:24+08:00][sql] CONNECT:[ UseTime:0.016774s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:36:24+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001054s ]
+[2021-04-30T23:36:24+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000947s ]
+[2021-04-30T23:36:27+08:00][sql] CONNECT:[ UseTime:0.017730s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:36:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000818s ]
+[2021-04-30T23:36:27+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000364s ]
+[2021-04-30T23:36:27+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000783s ]
+[2021-04-30T23:36:39+08:00][sql] CONNECT:[ UseTime:0.018242s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:36:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.023968s ]
+[2021-04-30T23:36:39+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000525s ]
+[2021-04-30T23:36:39+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000518s ]
+[2021-04-30T23:36:45+08:00][sql] CONNECT:[ UseTime:0.015811s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:36:45+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000741s ]
+[2021-04-30T23:36:45+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[2021-04-30T23:36:45+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000753s ]
+[2021-04-30T23:36:49+08:00][sql] CONNECT:[ UseTime:0.016584s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:36:49+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000716s ]
+[2021-04-30T23:36:49+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000544s ]
+[2021-04-30T23:36:50+08:00][sql] CONNECT:[ UseTime:0.020546s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:36:50+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.021553s ]
+[2021-04-30T23:36:50+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001315s ]
+[2021-04-30T23:40:15+08:00][sql] CONNECT:[ UseTime:0.020239s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:40:15+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000872s ]
+[2021-04-30T23:40:15+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000413s ]
+[2021-04-30T23:40:18+08:00][sql] CONNECT:[ UseTime:0.001130s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:40:18+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000723s ]
+[2021-04-30T23:40:18+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[2021-04-30T23:40:18+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持123' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000436s ]
+[2021-04-30T23:40:31+08:00][sql] CONNECT:[ UseTime:0.010991s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:40:31+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.021345s ]
+[2021-04-30T23:40:31+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000388s ]
+[2021-04-30T23:40:31+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持123' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.001046s ]
+[2021-04-30T23:40:32+08:00][sql] CONNECT:[ UseTime:0.001408s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:40:32+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000961s ]
+[2021-04-30T23:40:32+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000405s ]
+[2021-04-30T23:40:37+08:00][sql] CONNECT:[ UseTime:0.016546s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:40:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000770s ]
+[2021-04-30T23:40:37+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000397s ]
+[2021-04-30T23:40:37+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000413s ]
+[2021-04-30T23:44:13+08:00][sql] CONNECT:[ UseTime:0.014520s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:44:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000884s ]
+[2021-04-30T23:44:13+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000356s ]
+[2021-04-30T23:44:13+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000469s ]
+[2021-04-30T23:44:16+08:00][sql] CONNECT:[ UseTime:0.016602s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:44:16+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001198s ]
+[2021-04-30T23:44:16+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000450s ]
+[2021-04-30T23:44:16+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000433s ]
+[2021-04-30T23:45:24+08:00][sql] CONNECT:[ UseTime:0.014156s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:45:24+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.018795s ]
+[2021-04-30T23:45:24+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000406s ]
+[2021-04-30T23:45:24+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.001024s ]
+[2021-04-30T23:45:26+08:00][sql] CONNECT:[ UseTime:0.021656s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:45:26+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000783s ]
+[2021-04-30T23:45:26+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[2021-04-30T23:45:28+08:00][sql] CONNECT:[ UseTime:0.002076s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:45:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000775s ]
+[2021-04-30T23:45:28+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000332s ]
+[2021-04-30T23:45:28+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000376s ]
+[2021-04-30T23:46:12+08:00][sql] CONNECT:[ UseTime:0.000935s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:46:12+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000805s ]
+[2021-04-30T23:46:12+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[2021-04-30T23:46:14+08:00][sql] CONNECT:[ UseTime:0.012825s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:46:14+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000900s ]
+[2021-04-30T23:46:14+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000608s ]
+[2021-04-30T23:46:14+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000771s ]
+[2021-04-30T23:47:09+08:00][sql] CONNECT:[ UseTime:0.012632s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:47:09+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000788s ]
+[2021-04-30T23:47:09+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000378s ]
+[2021-04-30T23:47:28+08:00][sql] CONNECT:[ UseTime:0.015373s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:47:28+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001898s ]
+[2021-04-30T23:47:28+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000892s ]
+[2021-04-30T23:47:28+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.001050s ]
+[2021-04-30T23:51:15+08:00][sql] CONNECT:[ UseTime:0.022489s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:51:15+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.000981s ]
+[2021-04-30T23:51:15+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000371s ]
+[2021-04-30T23:51:15+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习，测试' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000495s ]
+[2021-04-30T23:55:55+08:00][sql] CONNECT:[ UseTime:0.025416s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:55:55+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.160295s ]
+[2021-04-30T23:55:55+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.002024s ]
+[2021-04-30T23:56:10+08:00][sql] CONNECT:[ UseTime:0.000878s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:56:10+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.015117s ]
+[2021-04-30T23:56:10+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000394s ]
+[2021-04-30T23:56:17+08:00][sql] CONNECT:[ UseTime:0.014931s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:56:17+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001736s ]
+[2021-04-30T23:56:17+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000484s ]
+[2021-04-30T23:56:17+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000555s ]
+[2021-04-30T23:56:23+08:00][sql] CONNECT:[ UseTime:0.019168s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:56:23+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001916s ]
+[2021-04-30T23:56:23+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[2021-04-30T23:57:09+08:00][sql] CONNECT:[ UseTime:0.013271s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:57:09+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.182716s ]
+[2021-04-30T23:57:09+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000893s ]
+[2021-04-30T23:57:13+08:00][sql] CONNECT:[ UseTime:0.013884s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:57:13+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001736s ]
+[2021-04-30T23:57:13+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000413s ]
+[2021-04-30T23:57:13+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习，测试' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000385s ]
+[2021-04-30T23:57:35+08:00][sql] CONNECT:[ UseTime:0.023372s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:57:35+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001675s ]
+[2021-04-30T23:57:35+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000504s ]
+[2021-04-30T23:57:39+08:00][sql] CONNECT:[ UseTime:0.019155s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:57:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001342s ]
+[2021-04-30T23:57:39+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000402s ]
+[2021-04-30T23:57:39+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000481s ]
+[2021-04-30T23:58:19+08:00][sql] CONNECT:[ UseTime:0.024991s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:58:19+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.017452s ]
+[2021-04-30T23:58:19+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000455s ]
+[2021-04-30T23:58:19+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习，测试' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000832s ]
+[2021-04-30T23:58:22+08:00][sql] CONNECT:[ UseTime:0.013274s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:58:22+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001924s ]
+[2021-04-30T23:58:22+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000486s ]
+[2021-04-30T23:58:27+08:00][sql] CONNECT:[ UseTime:0.025603s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:58:27+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001300s ]
+[2021-04-30T23:58:27+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000408s ]
+[2021-04-30T23:58:27+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.001109s ]
+[2021-04-30T23:59:37+08:00][sql] CONNECT:[ UseTime:0.016264s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:59:37+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.051218s ]
+[2021-04-30T23:59:37+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.001227s ]
+[2021-04-30T23:59:39+08:00][sql] CONNECT:[ UseTime:0.021038s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:59:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.002260s ]
+[2021-04-30T23:59:39+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000411s ]
+[2021-04-30T23:59:39+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000444s ]
+[2021-04-30T23:59:39+08:00][sql] CONNECT:[ UseTime:0.017828s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:59:39+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001672s ]
+[2021-04-30T23:59:39+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000556s ]
+[2021-04-30T23:59:47+08:00][sql] CONNECT:[ UseTime:0.012333s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:59:47+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001578s ]
+[2021-04-30T23:59:47+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000457s ]
+[2021-04-30T23:59:47+08:00][sql] UPDATE `tp_info`  SET `webname` = 'Cypher的博客' , `webdes` = '个人博客网站，用于记录生活，学习，测试' , `wechat` = 'Xiling_Nitian' , `webkeyword` = '记录生活，thinkphp6，学习编程，坚持' , `qq` = '1243057780' , `email` = 'obazxl@gmail.com' , `phone` = '17786810158' , `copyright` = '©2021 Xiling'  WHERE  `owner_id` = 1 [ RunTime:0.000434s ]
+[2021-04-30T23:59:48+08:00][sql] CONNECT:[ UseTime:0.012370s ] mysql:host=127.0.0.1;port=3306;dbname=tp6;charset=utf8
+[2021-04-30T23:59:48+08:00][sql] SHOW FULL COLUMNS FROM `tp_info` [ RunTime:0.001716s ]
+[2021-04-30T23:59:48+08:00][sql] SELECT * FROM `tp_info` WHERE  `owner_id` = 1 LIMIT 1 [ RunTime:0.000415s ]
