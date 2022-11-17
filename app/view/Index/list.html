@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="gb2312">
-<title>博客列表-Cypher</title>
+<title>Blog list</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="__STATIC__/frontstage/css/styles.css" rel="stylesheet">
@@ -23,7 +23,7 @@
 <header>
   <nav id="nav">
     <ul>
-      <li><a href="/" >网站首页</a></li>
+      <li><a href="/" >Front page</a></li>
       {foreach $category as $v}
         <li><a href="/index/list?cate_id={$v.cate_id}&page=1" title="{$v.cate_name}">{$v.cate_name}</a></li>
       {/foreach}
@@ -35,14 +35,14 @@
 <div id="mainbody">
   <div class="blogs">
     <div class="newlist">
-      <h2>您当前的位置：
-        <a href="/index.html">首页</a> 
+      <h2>Your position：
+        <a href="/index.html">Front page</a> 
         <a href="/index/list?cate_id={$one_cate.cate_id}">{$one_cate.cate_name}</a>
       </h2>
       <ul>
         {foreach $cate_article as $v}
           <p class="ptit"><b><a href="/index/article?article_id={$v.article_id}"> {$v.article_title} </a></b></p>
-          <p class="ptime">发布时间：{$v.article_time|date='Y-m-d H:i:s'} 作者：{$v.article_writer}  分类：{$one_cate.cate_name} </p>
+          <p class="ptime">Create time：{$v.article_time|date='Y-m-d H:i:s'} Author：{$v.article_writer}  Category：{$one_cate.cate_name} </p>
           <a href="/index/article?article_id={$v.article_id}"><img src="__PIC__/{$v.article_img}" class="imgdow"></a> 
           <p class="pcon">{$v.article_content|mb_substr=0,120|raw}</p>
           <p class="pcon"><a href="/index/article?article_id={$v.article_id}">更多内容</a></p>
@@ -53,8 +53,8 @@
         <ul class="pagination">
           <li><a href="?cate_id={$one_cate.cate_id}&page={$pre_page}">上一页</a></li>
           <li><a href="?cate_id={$one_cate.cate_id}&page={$next_page}">下一页</a></li>
-          <li>当前第{$page}页</li>
-          <li>总共有{$total}页</li>
+          <li>Current {$page} page</li>
+          <li>Total {$total} page</li>
         </ul>
       </div>
     </div>
@@ -68,7 +68,7 @@
       </div>
       -->
       <div class="tuijian">
-        <h2>栏目更新</h2>
+        <h2>Recommended Articles</h2>
         <ol>
           {foreach $ten as $v}
             <li><a href="/index/article?article_id={$v.article_id}">{$v.article_title}</a></li>
@@ -76,7 +76,7 @@
         </ol>
       </div>
       <div class="toppic">
-        <h2>图文并茂</h2>
+        <h2>Pictures and articles</h2>
         <ul>
           {foreach $three as $v}
             <li><a href="/index/article?article_id={$v.article_id}"><img src="__PIC__/{$v.article_img}">{$v.article_title}</a></li>
@@ -107,13 +107,13 @@
 <footer>
   <div class="footer-mid">
     <div class="links">
-      <h2>友情链接</h2>
+      <h2>Links</h2>
       <ul>
-        <li><a href="/">Cypher个人博客</a></li>
+        <li><a href="/">Xiling's blog</a></li>
       </ul>
     </div>
     <div class="visitors">
-      <h2>最新评论</h2>
+      <h2>Newest comments</h2>
       <!--
       <dl>
         <dt><img src="__STATIC__/frontstage/images/s8.jpg">
@@ -127,7 +127,7 @@
       -->
     </div>
     <section class="flickr">
-      <h2>摄影作品</h2>
+      <h2>Pictures</h2>
       <ul>
         <li><a href="/"><img src="__STATIC__/frontstage/images/01.jpg"></a></li>
         <li><a href="/"><img src="__STATIC__/frontstage/images/02.jpg"></a></li>
@@ -142,7 +142,7 @@
     </section>
   </div>
   <div class="footer-bottom">
-    <p>Copyright 2021 Design by <a href="https://www.xiling.ca">Cypher</a></p>
+    <p>Copyright 2021 Design by <a href="https://www.xiling.ca">Xiling</a></p>
   </div>
 </footer>
 <!-- jQuery仿腾讯回顶部和建议 代码开始 -->

@@ -30,24 +30,24 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="/">Cypher</a> </div>
+          <a class="navbar-brand" href="/">Xiling</a> </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="">消息 <span class="badge">1</span></a></li>
+            <li><a href="">Information <span class="badge">1</span></a></li>
             <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <span class="caret"></span></a>
               <ul class="dropdown-menu dropdown-menu-left">
-                <li><a title="查看或修改个人信息" data-toggle="modal" data-target="#seeUserInfo">个人信息</a></li>
-                <li><a title="查看您的登录记录" data-toggle="modal" data-target="#seeUserLoginlog">登录记录</a></li>
+                <li><a title="查看或修改个人信息" data-toggle="modal" data-target="#seeUserInfo">Personal Information</a></li>
+                <li><a title="查看您的登录记录" data-toggle="modal" data-target="#seeUserLoginlog">Login records</a></li>
               </ul>
             </li>
-            <li><a href="signOut">退出登录</a></li>
-            <li><a data-toggle="modal" data-target="#WeChat">帮助</a></li>
+            <li><a href="signOut">Logout</a></li>
+            <li><a data-toggle="modal" data-target="#WeChat">Help</a></li>
           </ul>
           <form action="" method="post" class="navbar-form navbar-right" role="search">
             <div class="input-group">
               <input type="text" class="form-control" autocomplete="off" placeholder="键入关键字搜索" maxlength="15">
               <span class="input-group-btn">
-              <button class="btn btn-default" type="submit">搜索</button>
+              <button class="btn btn-default" type="submit">Search</button>
               </span> </div>
           </form>
         </div>
@@ -57,40 +57,40 @@
   <div class="row">
     <aside class="col-sm-3 col-md-2 col-lg-2 sidebar">
       <ul class="nav nav-sidebar">
-        <li><a href="index.html">报告</a></li>
+        <li><a href="index.html">Report</a></li>
       </ul>
       <ul class="nav nav-sidebar">
-        <li class="active"><a href="article.html">文章</a></li>
-        <li><a href="notice.html">公告</a></li>
-        <li><a href="comment.html">评论</a></li>
-        <li><a data-toggle="tooltip" data-placement="top" title="网站暂无留言功能">留言</a></li>
+        <li><a href="article.html">Article</a></li>
+        <li><a href="notice.html">Announcement</a></li>
+        <li><a href="comment.html">Comment</a></li>
+        <li><a data-toggle="tooltip" data-placement="top" title="网站暂无留言功能">Message</a></li>
       </ul>
       <ul class="nav nav-sidebar">
-        <li><a href="category.html">栏目</a></li>
-        <li><a class="dropdown-toggle" id="otherMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">其他</a>
+        <li><a href="category.html">Category</a></li>
+        <li><a class="dropdown-toggle" id="otherMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Others</a>
           <ul class="dropdown-menu" aria-labelledby="otherMenu">
-            <li><a href="flink.html">友情链接</a></li>
-            <li><a href="loginlog.html">访问记录</a></li>
+            <li><a href="flink.html">Link</a></li>
+            <li><a href="loginlog.html">View records</a></li>
           </ul>
         </li>
       </ul>
       <ul class="nav nav-sidebar">
-        <li><a class="dropdown-toggle" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">用户</a>
+        <li class="active"><a class="dropdown-toggle" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admin</a>
           <ul class="dropdown-menu" aria-labelledby="userMenu">
-            <li><a href="#">管理用户组</a></li>
-            <li><a href="admin_list.html">管理用户</a></li>
+            <li><a href="#">Manage admin category</a></li>
+            <li><a href="admin_list.html">Manage admins</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="loginlog.html">管理登录日志</a></li>
+            <li><a href="loginlog.html">Manage login records</a></li>
           </ul>
         </li>
-        <li><a class="dropdown-toggle" id="settingMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">设置</a>
+        <li><a class="dropdown-toggle" id="settingMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Setting</a>
           <ul class="dropdown-menu" aria-labelledby="settingMenu">
-            <li><a href="setting.html">基本设置</a></li>
-            <li><a href="readset.html">用户设置</a></li>
+            <li><a href="setting.html">Basic setting</a></li>
+            <li><a href="readset.html">Admin setting</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">安全配置</a></li>
+            <li><a href="#">Security setting</a></li>
             <li role="separator" class="divider"></li>
-            <li class="disabled"><a>扩展菜单</a></li>
+            <li class="disabled"><a>Extended category</a></li>
           </ul>
         </li>
       </ul>
@@ -99,18 +99,18 @@
       <div class="row">
         <form action="edit" method="post" enctype="multipart/form-data">
           <div class="col-md-9">
-            <h1 class="page-header">撰写新文章</h1>
+            <h1 class="page-header">Edit articles</h1>
             <div class="form-group">
-              <h2 class="add-article-box-title"><span>标题</span></h2>
+              <h2 class="add-article-box-title"><span>Title</span></h2>
               <input type="text" id="article_title" name="article_title" value="{$article.article_title}" class="form-control" >
               <input type="hidden" name="article_id" value="{$article.article_id}">
             </div>
             <div class="form-group">
-              <h2 class="add-article-box-title"><span>作者</span></h2>
+              <h2 class="add-article-box-title"><span>Author</span></h2>
               <input type="text" id="author" name="author"  value="{$article.article_writer}" class="form-control" >
             </div>
             <div class="form-group">
-              <h2 class="add-article-box-title"><span>内容</span></h2>
+              <h2 class="add-article-box-title"><span>Content</span></h2>
               <td>
                 <div id="div1">
                   <p>{$article.article_content}</p>
@@ -120,9 +120,9 @@
             </div>
           </div>
           <div class="col-md-3">
-            <h1 class="page-header">操作</h1>
+            <h1 class="page-header">Manipulate</h1>
             <div class="add-article-box">
-              <h2 class="add-article-box-title"><span>分类</span></h2>
+              <h2 class="add-article-box-title"><span>Category</span></h2>
               <div class="add-article-box-content">
                 <ul class="category-list">
                   <select id="category" name="category">
@@ -138,7 +138,7 @@
                 </ul>
               </div>
             </div>
-            <button class="btn btn-primary" type="submit" id="edit">修改博文</button>
+            <button class="btn btn-primary" type="submit" id="edit">Edit blog</button>
           </div>
         </form>
       </div>

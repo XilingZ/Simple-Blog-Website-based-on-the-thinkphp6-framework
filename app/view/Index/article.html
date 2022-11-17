@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="gb2312">
-<title>文章详情-Cypher</title>
+<title>Article content</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="__STATIC__/frontstage/css/styles.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 <header>
   <nav id="nav">
     <ul>
-      <li><a href="/index.html" >网站首页</a></li>
+      <li><a href="/index.html" >Front page</a></li>
       {foreach $category as $v}
         <li><a href="/index/list?cate_id={$v.cate_id}&page=1" title="{$v.cate_name}">{$v.cate_name}</a></li>
       {/foreach}
@@ -33,7 +33,7 @@
 <div id="mainbody">
   <div class="blogs">
     <div id="index_view">
-      <h2 class="t_nav"><a href="/">网站首页</a>
+      <h2 class="t_nav"><a href="/">Front page</a>
         {foreach $category as $v}
           {if $v.cate_id == $article.cate_id}
             <a href="/index/list?cate_id={$v.cate_id}">{$v.cate_name}</a>
@@ -41,13 +41,13 @@
         {/foreach}
       </h2>
       <h1 class="c_titile">{$article.article_title}</h1>
-      <p class="box">发布时间：{$article.article_time|date='Y-m-d H:i:s'}<span>编辑：{$article.article_writer}</span>阅读（{$article.article_click}）</p>
+      <p class="box">Created time：{$article.article_time|date='Y-m-d H:i:s'}<span>Edit：{$article.article_writer}</span>Read（{$article.article_click}）</p>
       <ul>
         {$article.article_content|raw}
       </ul>
       <div class="share"> 
         <!-- Baidu Button BEGIN -->
-        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <span class="bds_more">分享到：</span> <a class="bds_qzone"></a> <a class="bds_tsina"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <a class="shareCount"></a> </div>
+        <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare"> <span class="bds_more">Share：</span> <a class="bds_qzone"></a> <a class="bds_tsina"></a> <a class="bds_tqq"></a> <a class="bds_renren"></a> <a class="bds_t163"></a> <a class="shareCount"></a> </div>
         <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6574585" ></script> 
         <script type="text/javascript" id="bdshell_js"></script> 
         <script type="text/javascript">
@@ -78,7 +78,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
       </div>
       -->
       <div class="tuijian">
-        <h2>栏目更新</h2>
+        <h2>Recommended articles</h2>
         <ol>
           {foreach $ten as $v}
             <li><a href="/index/article?article_id={$v.article_id}">{$v.article_title}</a></li>
@@ -86,7 +86,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
         </ol>
       </div>
       <div class="toppic">
-        <h2>图文并茂</h2>
+        <h2>Pictures and Articles</h2>
         <ul>
           {foreach $three as $v}
             <li><a href="/index/article?article_id={$v.article_id}"><img src="__PIC__/{$v.article_img}">{$v.article_title}</a></li>
@@ -117,13 +117,13 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 <footer>
   <div class="footer-mid">
     <div class="links">
-      <h2>友情链接</h2>
+      <h2>Links</h2>
       <ul>
-        <li><a href="/">Cypher个人博客</a></li>
+        <li><a href="/">Xiling's blog</a></li>
       </ul>
     </div>
     <div class="visitors">
-      <h2>最新评论</h2>
+      <h2>Newest comments</h2>
       <!--
       <dl>
         <dt><img src="__STATIC__/frontstage/images/s8.jpg">
@@ -137,7 +137,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
       -->
     </div>
     <section class="flickr">
-      <h2>摄影作品</h2>
+      <h2>Pictures</h2>
       <ul>
         <li><a href="/"><img src="__STATIC__/frontstage/images/01.jpg"></a></li>
         <li><a href="/"><img src="__STATIC__/frontstage/images/02.jpg"></a></li>
@@ -152,7 +152,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     </section>
   </div>
   <div class="footer-bottom">
-    <p>Copyright 2021 Design by <a href="https://www.xiling.ca">Cypher</a></p>
+    <p>Copyright 2021 Design by <a href="https://www.xiling.ca">Xiling</a></p>
   </div>
 </footer>
 <!-- jQuery仿腾讯回顶部和建议 代码开始 -->

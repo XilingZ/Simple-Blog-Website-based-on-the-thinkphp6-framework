@@ -5,7 +5,7 @@
 <meta name="renderer" content="webkit">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>博客管理系统</title>
+<title>Blog management system</title>
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/style.css">
 <link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/font-awesome.min.css">
@@ -30,24 +30,24 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="/">Cypher</a> </div>
+          <a class="navbar-brand" href="/">Xiling</a> </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="">消息 <span class="badge">1</span></a></li>
+            <li><a href="">Information <span class="badge">1</span></a></li>
             <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <span class="caret"></span></a>
               <ul class="dropdown-menu dropdown-menu-left">
-                <li><a title="查看或修改个人信息" data-toggle="modal" data-target="#seeUserInfo">个人信息</a></li>
-                <li><a title="查看您的登录记录" data-toggle="modal" data-target="#seeUserLoginlog">登录记录</a></li>
+                <li><a title="查看或修改个人信息" data-toggle="modal" data-target="#seeUserInfo">Personal Information</a></li>
+                <li><a title="查看您的登录记录" data-toggle="modal" data-target="#seeUserLoginlog">Login records</a></li>
               </ul>
             </li>
-            <li><a href="signOut">退出登录</a></li>
-            <li><a data-toggle="modal" data-target="#WeChat">帮助</a></li>
+            <li><a href="signOut">Logout</a></li>
+            <li><a data-toggle="modal" data-target="#WeChat">Help</a></li>
           </ul>
           <form action="" method="post" class="navbar-form navbar-right" role="search">
             <div class="input-group">
               <input type="text" class="form-control" autocomplete="off" placeholder="键入关键字搜索" maxlength="15">
               <span class="input-group-btn">
-              <button class="btn btn-default" type="submit">搜索</button>
+              <button class="btn btn-default" type="submit">Search</button>
               </span> </div>
           </form>
         </div>
@@ -96,7 +96,7 @@
       </ul>
     </aside>
     <div class="col-sm-9 col-sm-offset-3 col-md-10 col-lg-10 col-md-offset-2 main" id="main">
-      <h1 class="page-header">修改密码</h1>
+      <h1 class="page-header">Edit password</h1>
       <div class="modal-body">
         <table class="table" style="margin-bottom:0px;">
           <thead>
@@ -104,15 +104,15 @@
           </thead>
           <tbody>
             <tr>
-              <td wdith="10%">用户名:</td>
+              <td wdith="10%">User name:</td>
               <td width="90%">{$admin_info.admin_name}<input type="hidden" id="adminid" class="form-control" value="{$admin_info.admin_id}" autocomplete="off" /></td>
             </tr>
             <tr>
-              <td wdith="10%">原密码:</td>
+              <td wdith="10%">Old password:</td>
               <td width="90%"><input type="password" id="oldpwd" class="form-control"  autocomplete="off" /></td>
             </tr>
             <tr>
-              <td wdith="10%">新密码:</td>
+              <td wdith="10%">New password:</td>
               <td width="90%"><input type="password" id="newpwd" class="form-control"  autocomplete="off" /></td>
             </tr>
           </tbody>
@@ -122,7 +122,7 @@
         </table>
       </div>
       <div class="modal-footer">
-        <button type="button" id="editAdmin" class="btn btn-primary">提交</button>
+        <button type="button" id="editAdmin" class="btn btn-primary">Submit</button>
       </div>
     </div>
   </div>
@@ -137,10 +137,10 @@
     var oldpwd = $('#oldpwd').val();
     var newpwd = $('#newpwd').val();
     if (oldpwd.length<6){
-      alert('原始密码不能小于六位');
+      alert('password cannot be less than 6');
     }
     else if(newpwd.length<6){
-      alert('新密码不能小于六位');
+      alert('password cannot be less than 6');
     }
     else{
       $.ajax({
@@ -152,11 +152,11 @@
           'newpwd':newpwd
         },
         success:function(data){
-          if(data == '原始密码不正确'){
-            alert('原始密码不正确');
+          if(data == 'password is not correct'){
+            alert('password is not correct');
           }
-          else if(data == '修改密码成功'){
-            alert('修改密码成功')
+          else if(data == 'password change successfully'){
+            alert('password change successfully')
             $(window.location.href = 'admin_list.html');
           }
         }

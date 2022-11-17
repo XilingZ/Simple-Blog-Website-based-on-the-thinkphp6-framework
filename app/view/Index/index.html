@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="gb2312">
-<title>博客首页-Cypher</title>
+<title>Blog Front Page-Xiling</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="__STATIC__/frontstage/css/styles.css" rel="stylesheet">
@@ -21,7 +21,7 @@
 <header>
   <nav id="nav">
     <ul>
-      <li><a href="/" >网站首页</a></li>
+      <li><a href="/" >Front page</a></li>
       {foreach $category as $v}
         <li><a href="/index/list?cate_id={$v.cate_id}&page=1" title="{$v.cate_name}">{$v.cate_name}</a></li>
       {/foreach}
@@ -33,20 +33,19 @@
 <div id="mainbody">
   <div class="info">
     <figure> <img src="__STATIC__/frontstage/images/art.jpg"  alt="Panama Hat">
-      <figcaption><strong>新网站，基于thinkphp6开发</strong>新网站，很多功能还没添加，敬请期待 </figcaption>
+      <figcaption><strong>Develop based on thinkphp6</strong>New Website</figcaption>
     </figure>
     <div class="card">
-      <h1>我的名片</h1>
-      <p>网名：Cypher</p>
-      <p>职业：学生兼初级Web开发</p>
-      <p>电话：13455166680</p>
+      <h1>My Business Card</h1>
+      <p>Name: Xiling Zhang</p>
+      <p>Profession: Student</p>
       <p>Email：obazxl@gmail.com</p>
       <ul class="linkmore">
-        <li><a href="/" class="talk" title="给我留言"></a></li>
-        <li><a href="/" class="address" title="联系地址"></a></li>
-        <li><a href="/" class="email" title="给我写信"></a></li>
-        <li><a href="/" class="photos" title="生活照片"></a></li>
-        <li><a href="/" class="heart" title="关注我"></a></li>
+        <li><a href="/" class="talk" title="Message me"></a></li>
+        <li><a href="/" class="address" title="Address"></a></li>
+        <li><a href="/" class="email" title="Email me"></a></li>
+        <li><a href="/" class="photos" title="Life photoes"></a></li>
+        <li><a href="/" class="heart" title="Followw wwwww"></a></li>
       </ul>
     </div>
   </div>
@@ -79,7 +78,7 @@
     <!--bloglist end-->
     <aside>
       <div class="tuijian">
-        <h2>推荐文章</h2>
+        <h2>Recommended Articles</h2>
         <ol>
           {foreach $ten as $v}
             <li><a href="/index/article?article_id={$v.article_id}">{$v.article_title}</a></li>
@@ -87,7 +86,7 @@
         </ol>
       </div>
       <div class="toppic">
-        <h2>图文并茂</h2>
+        <h2>Pictures and Articles</h2>
         <ul>
           {foreach $three as $v}
             <li><a href="/index/article?article_id={$v.article_id}"><img src="__PIC__/{$v.article_img}">{$v.article_title}</a></li>
@@ -136,13 +135,13 @@
   <div class="footer-mid">
     
     <div class="links">
-      <h2>友情链接</h2>
+      <h2>Links</h2>
       <ul>
-        <li><a href="/">Cypher个人博客</a></li>
+        <li><a href="/">Xiling's blog</a></li>
       </ul>
     </div>
     <div class="visitors">
-      <h2>最新评论</h2>
+      <h2>Newest comments</h2>
       <!--
       <dl>
         <dt><img src="__STATIC__/frontstage/images/s8.jpg">
@@ -156,7 +155,7 @@
       -->
     </div>
     <section class="flickr">
-      <h2>摄影作品</h2>
+      <h2>Pictures</h2>
       <ul>
         <li><a href="/"><img src="__STATIC__/frontstage/images/01.jpg"></a></li>
         <li><a href="/"><img src="__STATIC__/frontstage/images/02.jpg"></a></li>
@@ -171,7 +170,7 @@
     </section>
   </div>
   <div class="footer-bottom">
-    <p>Copyright 2021 Design by <a href="https://www.xiling.ca">Cypher</a></p>
+    <p>Copyright 2021 Design by <a href="https://www.xiling.ca">Xiling</a></p>
   </div>
 </footer>
 <!-- jQuery仿腾讯回顶部和建议 代码开始 -->

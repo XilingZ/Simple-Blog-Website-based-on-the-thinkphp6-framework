@@ -43,7 +43,7 @@ class Admins extends BaseController
             }
             else{
                 Session::set('admin_name',input('post.name'));
-                return '登录成功';
+                return 'Login successfully';
             }
         }
         
